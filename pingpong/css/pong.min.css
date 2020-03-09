@@ -1,0 +1,1 @@
+#ball,#paddle{margin:0;padding:0;position:relative}#court{border:solid #000;border-right-style:dashed;background-color:azure;cursor:none;width:800px;height:500px}#ball{height:20px}#paddle{left:750px}

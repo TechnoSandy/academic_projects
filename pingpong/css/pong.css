@@ -1,0 +1,22 @@
+#court {
+	border: solid black;
+	border-right-style: dashed;
+	background-color: azure;
+	cursor: none;
+	width: 800px;
+	height: 500px;
+}
+
+#ball {
+	margin: 0;
+	padding: 0px;
+	position: relative;
+	height: 20px;
+}
+
+#paddle {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 750px;
+}

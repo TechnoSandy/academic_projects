@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- Student Name:  Sandeep Satone -->
+<!-- UTA ID:  1001556868 -->
+<html lang="en">
+
+
+<head>
+	<title>A Pong Game in JavaScript</title>
+	<meta charset="utf-8" />
+</head>
+
+<body onload="initialize();" onmousemove="movePaddle(event);">
+	<h1>Pong Game</h1>
+	<form>
+		<input id="Button" type="button" value="Start" onclick="startGame();" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="button" value="Reset" onclick="resetGame();" /><br/><br/>
+		<label>Slow<input type="radio" name="speed" value="0" checked="checked" onclick="setSpeed(0);"/></label>
+		<label>Medium<input type="radio" name="speed" value="1" onclick="setSpeed(1);"/></label>
+		<label>Fast<input type="radio" name="speed" value="2" onclick="setSpeed(2);"/></label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<label>Strikes: <span id="strikes">0</span></label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<label>Max Score: <span id="score">0</span></label>
+		<br/>
+		<br/>
+		<div id="court">
+			<img id="ball" src="images/ball.gif" />
+			<img id="paddle" src="images/paddle.gif" />
+		</div>
+	</form>
+	<br/> Messages: <span id="messages"></span>
+</body>
+<!--Load the stylesheets and js once the skeleton of the page is loaded completely to get browser consistancy-->
+<link rel="stylesheet" href="css/pong.css">
+<script type="text/javascript" src="js/pong.js"></script>
+</html>

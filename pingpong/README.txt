@@ -1,0 +1,1 @@
+Copy the entire project in public_html folder or www folder of WAMP webserver. Access pong.html using chrome/firefox using URL
