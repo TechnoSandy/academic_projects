@@ -1,0 +1,1071 @@
+myHadoop: Setting MH_IPOIB_TRANSFORM='s/\([^.]*\).*$/\1.ibnet/' from myhadoop.conf
+myHadoop: Setting MH_SCRATCH_DIR=/scratch/$USER/$SLURM_JOBID from myhadoop.conf
+myHadoop: Using HADOOP_HOME=/opt/hadoop/2.6.0
+myHadoop: Using MH_SCRATCH_DIR=/scratch/ssatone/21749509
+myHadoop: Using JAVA_HOME=/usr/java/latest
+myHadoop: Generating Hadoop configuration in directory in /home/ssatone/cometcluster...
+myHadoop: Backing up old config dir to /home/ssatone/cometcluster.2...
+`/home/ssatone/cometcluster' -> `/home/ssatone/cometcluster.2'
+myHadoop: Designating comet-14-42.ibnet as master node (namenode, secondary namenode, and jobtracker)
+myHadoop: The following nodes will be slaves (datanode, tasktracer):
+comet-14-42.ibnet
+comet-14-52.ibnet
+comet-14-57.ibnet
+19/03/03 22:51:56 INFO namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = comet-14-42.sdsc.edu/198.202.114.241
+STARTUP_MSG:   args = [-format]
+STARTUP_MSG:   version = 2.6.0
+STARTUP_MSG:   classpath = /home/ssatone/cometcluster:/opt/hadoop/2.6.0/share/hadoop/common/lib/jackson-jaxrs-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/apacheds-i18n-2.0.0-M15.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/guava-11.0.2.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/hamcrest-core-1.3.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/htrace-core-3.0.4.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/httpclient-4.2.5.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/asm-3.2.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/gson-2.2.4.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jsr305-1.3.9.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-collections-3.2.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/curator-client-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/curator-recipes-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jetty-6.1.26.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jsch-0.1.42.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jettison-1.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-lang-2.6.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jaxb-impl-2.2.3-1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/java-xmlbuilder-0.4.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/mockito-all-1.8.5.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/junit-4.11.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/hadoop-auth-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jasper-runtime-5.5.23.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/log4j-1.2.17.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/avro-1.7.4.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jets3t-0.9.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/zookeeper-3.4.6.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/slf4j-api-1.7.5.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/stax-api-1.0-2.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-io-2.4.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/httpcore-4.2.5.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-beanutils-core-1.8.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-net-3.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/netty-3.6.2.Final.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/xmlenc-0.52.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-httpclient-3.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jsp-api-2.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/servlet-api-2.5.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jersey-json-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/paranamer-2.3.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-codec-1.4.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/api-util-1.0.0-M20.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jasper-compiler-5.5.23.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jaxb-api-2.2.2.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/activation-1.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/curator-framework-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/hadoop-annotations-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/api-asn1-api-1.0.0-M20.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-configuration-1.6.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-math3-3.1.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-cli-1.2.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jackson-xc-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-compress-1.4.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/apacheds-kerberos-codec-2.0.0-M15.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-el-1.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jetty-util-6.1.26.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/xz-1.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-beanutils-1.7.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/snappy-java-1.0.4.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jersey-server-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-logging-1.1.3.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jersey-core-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/protobuf-java-2.5.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-digester-1.8.jar:/opt/hadoop/2.6.0/share/hadoop/common/hadoop-common-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/hadoop-common-2.6.0-tests.jar:/opt/hadoop/2.6.0/share/hadoop/common/hadoop-nfs-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/commons-daemon-1.0.13.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/guava-11.0.2.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/htrace-core-3.0.4.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/asm-3.2.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jsr305-1.3.9.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jetty-6.1.26.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/commons-lang-2.6.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jasper-runtime-5.5.23.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/log4j-1.2.17.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/commons-io-2.4.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/netty-3.6.2.Final.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/xercesImpl-2.9.1.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/xmlenc-0.52.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jsp-api-2.1.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/servlet-api-2.5.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/commons-codec-1.4.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/commons-cli-1.2.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/commons-el-1.0.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jetty-util-6.1.26.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/xml-apis-1.3.04.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jersey-server-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/commons-logging-1.1.3.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jersey-core-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/protobuf-java-2.5.0.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/hadoop-hdfs-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/hadoop-hdfs-2.6.0-tests.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/hadoop-hdfs-nfs-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jackson-jaxrs-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/guice-3.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/guava-11.0.2.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jersey-guice-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/asm-3.2.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jsr305-1.3.9.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-collections-3.2.1.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jetty-6.1.26.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jettison-1.1.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-lang-2.6.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jaxb-impl-2.2.3-1.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jersey-client-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/log4j-1.2.17.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/zookeeper-3.4.6.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/stax-api-1.0-2.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-io-2.4.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/guice-servlet-3.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/netty-3.6.2.Final.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-httpclient-3.1.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jline-0.9.94.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/servlet-api-2.5.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jersey-json-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-codec-1.4.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/aopalliance-1.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jaxb-api-2.2.2.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/javax.inject-1.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/activation-1.1.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/leveldbjni-all-1.8.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-cli-1.2.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jackson-xc-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-compress-1.4.1.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jetty-util-6.1.26.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/xz-1.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jersey-server-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-logging-1.1.3.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jersey-core-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/protobuf-java-2.5.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-server-common-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-server-tests-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-applications-unmanaged-am-launcher-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-server-web-proxy-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-api-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-server-resourcemanager-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-server-nodemanager-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-registry-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-server-applicationhistoryservice-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-common-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-client-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/guice-3.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/hamcrest-core-1.3.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/jersey-guice-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/asm-3.2.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/junit-4.11.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/log4j-1.2.17.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/avro-1.7.4.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/commons-io-2.4.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/guice-servlet-3.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/netty-3.6.2.Final.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/paranamer-2.3.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/aopalliance-1.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/javax.inject-1.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/hadoop-annotations-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/leveldbjni-all-1.8.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/commons-compress-1.4.1.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/xz-1.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/snappy-java-1.0.4.1.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/jersey-server-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/jersey-core-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/protobuf-java-2.5.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.6.0-tests.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-app-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-2.6.0.jar:/opt/hadoop/2.6.0/contrib/capacity-scheduler/*.jar
+STARTUP_MSG:   build = https://git-wip-us.apache.org/repos/asf/hadoop.git -r e3496499ecb8d220fba99dc5ed4c99c8f9e33bb1; compiled by 'jenkins' on 2014-11-13T21:10Z
+STARTUP_MSG:   java = 1.8.0_60
+************************************************************/
+19/03/03 22:51:56 INFO namenode.NameNode: registered UNIX signal handlers for [TERM, HUP, INT]
+19/03/03 22:51:56 INFO namenode.NameNode: createNameNode [-format]
+19/03/03 22:51:56 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/03/03 22:51:56 WARN common.Util: Path /scratch/ssatone/21749509/namenode_data should be specified as a URI in configuration files. Please update hdfs configuration.
+19/03/03 22:51:56 WARN common.Util: Path /scratch/ssatone/21749509/namenode_data should be specified as a URI in configuration files. Please update hdfs configuration.
+Formatting using clusterid: CID-fd51a7b7-5cb9-484d-8266-173815778a12
+19/03/03 22:51:56 INFO namenode.FSNamesystem: No KeyProvider found.
+19/03/03 22:51:56 INFO namenode.FSNamesystem: fsLock is fair:true
+19/03/03 22:51:56 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.limit=1000
+19/03/03 22:51:56 INFO blockmanagement.DatanodeManager: dfs.namenode.datanode.registration.ip-hostname-check=true
+19/03/03 22:51:56 INFO blockmanagement.BlockManager: dfs.namenode.startup.delay.block.deletion.sec is set to 000:00:00:00.000
+19/03/03 22:51:56 INFO blockmanagement.BlockManager: The block deletion will start around 2019 Mar 03 22:51:56
+19/03/03 22:51:56 INFO util.GSet: Computing capacity for map BlocksMap
+19/03/03 22:51:56 INFO util.GSet: VM type       = 64-bit
+19/03/03 22:51:56 INFO util.GSet: 2.0% max memory 958.5 MB = 19.2 MB
+19/03/03 22:51:56 INFO util.GSet: capacity      = 2^21 = 2097152 entries
+19/03/03 22:51:56 INFO blockmanagement.BlockManager: dfs.block.access.token.enable=false
+19/03/03 22:51:56 INFO blockmanagement.BlockManager: defaultReplication         = 3
+19/03/03 22:51:56 INFO blockmanagement.BlockManager: maxReplication             = 512
+19/03/03 22:51:56 INFO blockmanagement.BlockManager: minReplication             = 1
+19/03/03 22:51:56 INFO blockmanagement.BlockManager: maxReplicationStreams      = 2
+19/03/03 22:51:56 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks  = false
+19/03/03 22:51:56 INFO blockmanagement.BlockManager: replicationRecheckInterval = 3000
+19/03/03 22:51:56 INFO blockmanagement.BlockManager: encryptDataTransfer        = false
+19/03/03 22:51:56 INFO blockmanagement.BlockManager: maxNumBlocksToLog          = 1000
+19/03/03 22:51:56 INFO namenode.FSNamesystem: fsOwner             = ssatone (auth:SIMPLE)
+19/03/03 22:51:56 INFO namenode.FSNamesystem: supergroup          = supergroup
+19/03/03 22:51:56 INFO namenode.FSNamesystem: isPermissionEnabled = true
+19/03/03 22:51:56 INFO namenode.FSNamesystem: HA Enabled: false
+19/03/03 22:51:56 INFO namenode.FSNamesystem: Append Enabled: true
+19/03/03 22:51:57 INFO util.GSet: Computing capacity for map INodeMap
+19/03/03 22:51:57 INFO util.GSet: VM type       = 64-bit
+19/03/03 22:51:57 INFO util.GSet: 1.0% max memory 958.5 MB = 9.6 MB
+19/03/03 22:51:57 INFO util.GSet: capacity      = 2^20 = 1048576 entries
+19/03/03 22:51:57 INFO namenode.NameNode: Caching file names occuring more than 10 times
+19/03/03 22:51:57 INFO util.GSet: Computing capacity for map cachedBlocks
+19/03/03 22:51:57 INFO util.GSet: VM type       = 64-bit
+19/03/03 22:51:57 INFO util.GSet: 0.25% max memory 958.5 MB = 2.4 MB
+19/03/03 22:51:57 INFO util.GSet: capacity      = 2^18 = 262144 entries
+19/03/03 22:51:57 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pct = 0.9990000128746033
+19/03/03 22:51:57 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+19/03/03 22:51:57 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension     = 30000
+19/03/03 22:51:57 INFO namenode.FSNamesystem: Retry cache on namenode is enabled
+19/03/03 22:51:57 INFO namenode.FSNamesystem: Retry cache will use 0.03 of total heap and retry cache entry expiry time is 600000 millis
+19/03/03 22:51:57 INFO util.GSet: Computing capacity for map NameNodeRetryCache
+19/03/03 22:51:57 INFO util.GSet: VM type       = 64-bit
+19/03/03 22:51:57 INFO util.GSet: 0.029999999329447746% max memory 958.5 MB = 294.5 KB
+19/03/03 22:51:57 INFO util.GSet: capacity      = 2^15 = 32768 entries
+19/03/03 22:51:57 INFO namenode.NNConf: ACLs enabled? false
+19/03/03 22:51:57 INFO namenode.NNConf: XAttrs enabled? true
+19/03/03 22:51:57 INFO namenode.NNConf: Maximum size of an xattr: 16384
+19/03/03 22:51:57 INFO namenode.FSImage: Allocated new BlockPoolId: BP-1238579605-198.202.114.241-1551682317059
+19/03/03 22:51:57 INFO common.Storage: Storage directory /scratch/ssatone/21749509/namenode_data has been successfully formatted.
+19/03/03 22:51:57 INFO namenode.NNStorageRetentionManager: Going to retain 1 images with txid >= 0
+19/03/03 22:51:57 INFO util.ExitUtil: Exiting with status 0
+19/03/03 22:51:57 INFO namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at comet-14-42.sdsc.edu/198.202.114.241
+************************************************************/
+19/03/03 22:51:57 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Starting namenodes on [comet-14-42.ibnet]
+comet-14-42.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-42.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-42.ibnet: starting namenode, logging to /scratch/ssatone/21749509/logs/hadoop-ssatone-namenode-comet-14-42.sdsc.edu.out
+comet-14-42.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-42.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-42.ibnet: starting datanode, logging to /scratch/ssatone/21749509/logs/hadoop-ssatone-datanode-comet-14-42.sdsc.edu.out
+comet-14-52.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-52.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-52.ibnet: /usr/bin/xauth:  error in locking authority file /home/ssatone/.Xauthority
+comet-14-52.ibnet: starting datanode, logging to /scratch/ssatone/21749509/logs/hadoop-ssatone-datanode-comet-14-52.sdsc.edu.out
+comet-14-57.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-57.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-57.ibnet: starting datanode, logging to /scratch/ssatone/21749509/logs/hadoop-ssatone-datanode-comet-14-57.sdsc.edu.out
+Starting secondary namenodes [comet-14-42.ibnet]
+comet-14-42.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-42.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-42.ibnet: starting secondarynamenode, logging to /scratch/ssatone/21749509/logs/hadoop-ssatone-secondarynamenode-comet-14-42.sdsc.edu.out
+19/03/03 22:52:13 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+starting yarn daemons
+starting resourcemanager, logging to /scratch/ssatone/21749509/logs/yarn-ssatone-resourcemanager-comet-14-42.out
+comet-14-42.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-42.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-42.ibnet: /usr/bin/xauth:  error in locking authority file /home/ssatone/.Xauthority
+comet-14-42.ibnet: starting nodemanager, logging to /scratch/ssatone/21749509/logs/yarn-ssatone-nodemanager-comet-14-42.sdsc.edu.out
+comet-14-52.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-52.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-52.ibnet: starting nodemanager, logging to /scratch/ssatone/21749509/logs/yarn-ssatone-nodemanager-comet-14-52.sdsc.edu.out
+comet-14-57.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-57.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-57.ibnet: starting nodemanager, logging to /scratch/ssatone/21749509/logs/yarn-ssatone-nodemanager-comet-14-57.sdsc.edu.out
+19/03/03 22:52:17 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/03/03 22:52:18 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/03/03 22:52:20 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/03/03 22:52:21 INFO client.RMProxy: Connecting to ResourceManager at comet-14-42.ibnet/10.22.252.117:8032
+19/03/03 22:52:21 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+19/03/03 22:52:21 INFO input.FileInputFormat: Total input paths to process : 1
+19/03/03 22:52:22 INFO mapreduce.JobSubmitter: number of splits:1
+19/03/03 22:52:22 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1551682335087_0001
+19/03/03 22:52:22 INFO impl.YarnClientImpl: Submitted application application_1551682335087_0001
+19/03/03 22:52:22 INFO mapreduce.Job: The url to track the job: http://comet-14-42.ibnet:8088/proxy/application_1551682335087_0001/
+19/03/03 22:52:22 INFO mapreduce.Job: Running job: job_1551682335087_0001
+19/03/03 22:52:27 INFO mapreduce.Job: Job job_1551682335087_0001 running in uber mode : false
+19/03/03 22:52:27 INFO mapreduce.Job:  map 0% reduce 0%
+19/03/03 22:52:35 INFO mapreduce.Job:  map 100% reduce 0%
+19/03/03 22:52:41 INFO mapreduce.Job:  map 100% reduce 100%
+19/03/03 22:52:41 INFO mapreduce.Job: Job job_1551682335087_0001 completed successfully
+19/03/03 22:52:41 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=13251432
+		FILE: Number of bytes written=26714329
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=7660495
+		HDFS: Number of bytes written=13940391
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=5436
+		Total time spent by all reduces in occupied slots (ms)=3496
+		Total time spent by all map tasks (ms)=5436
+		Total time spent by all reduce tasks (ms)=3496
+		Total vcore-seconds taken by all map tasks=5436
+		Total vcore-seconds taken by all reduce tasks=3496
+		Total megabyte-seconds taken by all map tasks=5566464
+		Total megabyte-seconds taken by all reduce tasks=3579904
+	Map-Reduce Framework
+		Map input records=100000
+		Map output records=100000
+		Map output bytes=13007104
+		Map output materialized bytes=13251432
+		Input split bytes=124
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=100000
+		Reduce shuffle bytes=13251432
+		Reduce input records=100000
+		Reduce output records=100000
+		Spilled Records=200000
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=166
+		CPU time spent (ms)=8100
+		Physical memory (bytes) snapshot=493182976
+		Virtual memory (bytes) snapshot=4342439936
+		Total committed heap usage (bytes)=354942976
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=7660371
+	File Output Format Counters 
+		Bytes Written=13940391
+19/03/03 22:52:41 INFO client.RMProxy: Connecting to ResourceManager at comet-14-42.ibnet/10.22.252.117:8032
+19/03/03 22:52:41 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+19/03/03 22:52:41 INFO input.FileInputFormat: Total input paths to process : 1
+19/03/03 22:52:41 INFO mapreduce.JobSubmitter: number of splits:1
+19/03/03 22:52:41 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1551682335087_0002
+19/03/03 22:52:41 INFO impl.YarnClientImpl: Submitted application application_1551682335087_0002
+19/03/03 22:52:41 INFO mapreduce.Job: The url to track the job: http://comet-14-42.ibnet:8088/proxy/application_1551682335087_0002/
+19/03/03 22:52:41 INFO mapreduce.Job: Running job: job_1551682335087_0002
+19/03/03 22:52:45 INFO mapreduce.Job: Job job_1551682335087_0002 running in uber mode : false
+19/03/03 22:52:45 INFO mapreduce.Job:  map 0% reduce 0%
+19/03/03 22:52:52 INFO mapreduce.Job:  map 100% reduce 0%
+19/03/03 22:52:59 INFO mapreduce.Job:  map 100% reduce 100%
+19/03/03 22:52:59 INFO mapreduce.Job: Job job_1551682335087_0002 completed successfully
+19/03/03 22:52:59 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=56483400
+		FILE: Number of bytes written=113619869
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=13940528
+		HDFS: Number of bytes written=13940391
+		HDFS: Number of read operations=7
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=4288
+		Total time spent by all reduces in occupied slots (ms)=4675
+		Total time spent by all map tasks (ms)=4288
+		Total time spent by all reduce tasks (ms)=4675
+		Total vcore-seconds taken by all map tasks=4288
+		Total vcore-seconds taken by all reduce tasks=4675
+		Total megabyte-seconds taken by all map tasks=4390912
+		Total megabyte-seconds taken by all reduce tasks=4787200
+	Map-Reduce Framework
+		Map input records=100000
+		Map output records=1300888
+		Map output bytes=53837296
+		Map output materialized bytes=56483400
+		Input split bytes=137
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=100000
+		Reduce shuffle bytes=56483400
+		Reduce input records=1300888
+		Reduce output records=100000
+		Spilled Records=2601776
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=87
+		CPU time spent (ms)=8740
+		Physical memory (bytes) snapshot=567865344
+		Virtual memory (bytes) snapshot=4364333056
+		Total committed heap usage (bytes)=338690048
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=13940391
+	File Output Format Counters 
+		Bytes Written=13940391
+19/03/03 22:52:59 INFO client.RMProxy: Connecting to ResourceManager at comet-14-42.ibnet/10.22.252.117:8032
+19/03/03 22:52:59 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+19/03/03 22:52:59 INFO input.FileInputFormat: Total input paths to process : 1
+19/03/03 22:52:59 INFO mapreduce.JobSubmitter: number of splits:1
+19/03/03 22:52:59 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1551682335087_0003
+19/03/03 22:52:59 INFO impl.YarnClientImpl: Submitted application application_1551682335087_0003
+19/03/03 22:52:59 INFO mapreduce.Job: The url to track the job: http://comet-14-42.ibnet:8088/proxy/application_1551682335087_0003/
+19/03/03 22:52:59 INFO mapreduce.Job: Running job: job_1551682335087_0003
+19/03/03 22:53:04 INFO mapreduce.Job: Job job_1551682335087_0003 running in uber mode : false
+19/03/03 22:53:04 INFO mapreduce.Job:  map 0% reduce 0%
+19/03/03 22:53:10 INFO mapreduce.Job:  map 100% reduce 0%
+19/03/03 22:53:17 INFO mapreduce.Job:  map 100% reduce 100%
+19/03/03 22:53:17 INFO mapreduce.Job: Job job_1551682335087_0003 completed successfully
+19/03/03 22:53:17 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=56483400
+		FILE: Number of bytes written=113619869
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=13940528
+		HDFS: Number of bytes written=13940391
+		HDFS: Number of read operations=7
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=4262
+		Total time spent by all reduces in occupied slots (ms)=3465
+		Total time spent by all map tasks (ms)=4262
+		Total time spent by all reduce tasks (ms)=3465
+		Total vcore-seconds taken by all map tasks=4262
+		Total vcore-seconds taken by all reduce tasks=3465
+		Total megabyte-seconds taken by all map tasks=4364288
+		Total megabyte-seconds taken by all reduce tasks=3548160
+	Map-Reduce Framework
+		Map input records=100000
+		Map output records=1300888
+		Map output bytes=53837296
+		Map output materialized bytes=56483400
+		Input split bytes=137
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=100000
+		Reduce shuffle bytes=56483400
+		Reduce input records=1300888
+		Reduce output records=100000
+		Spilled Records=2601776
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=85
+		CPU time spent (ms)=8770
+		Physical memory (bytes) snapshot=572047360
+		Virtual memory (bytes) snapshot=4382625792
+		Total committed heap usage (bytes)=342360064
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=13940391
+	File Output Format Counters 
+		Bytes Written=13940391
+19/03/03 22:53:17 INFO client.RMProxy: Connecting to ResourceManager at comet-14-42.ibnet/10.22.252.117:8032
+19/03/03 22:53:17 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+19/03/03 22:53:17 INFO input.FileInputFormat: Total input paths to process : 1
+19/03/03 22:53:17 INFO mapreduce.JobSubmitter: number of splits:1
+19/03/03 22:53:17 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1551682335087_0004
+19/03/03 22:53:17 INFO impl.YarnClientImpl: Submitted application application_1551682335087_0004
+19/03/03 22:53:17 INFO mapreduce.Job: The url to track the job: http://comet-14-42.ibnet:8088/proxy/application_1551682335087_0004/
+19/03/03 22:53:17 INFO mapreduce.Job: Running job: job_1551682335087_0004
+19/03/03 22:53:22 INFO mapreduce.Job: Job job_1551682335087_0004 running in uber mode : false
+19/03/03 22:53:22 INFO mapreduce.Job:  map 0% reduce 0%
+19/03/03 22:53:28 INFO mapreduce.Job:  map 100% reduce 0%
+19/03/03 22:53:34 INFO mapreduce.Job:  map 100% reduce 100%
+19/03/03 22:53:34 INFO mapreduce.Job: Job job_1551682335087_0004 completed successfully
+19/03/03 22:53:34 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=56483400
+		FILE: Number of bytes written=113619869
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=13940528
+		HDFS: Number of bytes written=13940391
+		HDFS: Number of read operations=7
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=4243
+		Total time spent by all reduces in occupied slots (ms)=3105
+		Total time spent by all map tasks (ms)=4243
+		Total time spent by all reduce tasks (ms)=3105
+		Total vcore-seconds taken by all map tasks=4243
+		Total vcore-seconds taken by all reduce tasks=3105
+		Total megabyte-seconds taken by all map tasks=4344832
+		Total megabyte-seconds taken by all reduce tasks=3179520
+	Map-Reduce Framework
+		Map input records=100000
+		Map output records=1300888
+		Map output bytes=53837296
+		Map output materialized bytes=56483400
+		Input split bytes=137
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=100000
+		Reduce shuffle bytes=56483400
+		Reduce input records=1300888
+		Reduce output records=100000
+		Spilled Records=2601776
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=121
+		CPU time spent (ms)=9720
+		Physical memory (bytes) snapshot=625561600
+		Virtual memory (bytes) snapshot=4431118336
+		Total committed heap usage (bytes)=348127232
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=13940391
+	File Output Format Counters 
+		Bytes Written=13940391
+19/03/03 22:53:34 INFO client.RMProxy: Connecting to ResourceManager at comet-14-42.ibnet/10.22.252.117:8032
+19/03/03 22:53:34 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+19/03/03 22:53:34 INFO input.FileInputFormat: Total input paths to process : 1
+19/03/03 22:53:34 INFO mapreduce.JobSubmitter: number of splits:1
+19/03/03 22:53:34 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1551682335087_0005
+19/03/03 22:53:34 INFO impl.YarnClientImpl: Submitted application application_1551682335087_0005
+19/03/03 22:53:34 INFO mapreduce.Job: The url to track the job: http://comet-14-42.ibnet:8088/proxy/application_1551682335087_0005/
+19/03/03 22:53:34 INFO mapreduce.Job: Running job: job_1551682335087_0005
+19/03/03 22:53:38 INFO mapreduce.Job: Job job_1551682335087_0005 running in uber mode : false
+19/03/03 22:53:38 INFO mapreduce.Job:  map 0% reduce 0%
+19/03/03 22:53:45 INFO mapreduce.Job:  map 100% reduce 0%
+19/03/03 22:53:50 INFO mapreduce.Job:  map 100% reduce 100%
+19/03/03 22:53:51 INFO mapreduce.Job: Job job_1551682335087_0005 completed successfully
+19/03/03 22:53:51 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=56483400
+		FILE: Number of bytes written=113619869
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=13940528
+		HDFS: Number of bytes written=13940391
+		HDFS: Number of read operations=7
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=4229
+		Total time spent by all reduces in occupied slots (ms)=3172
+		Total time spent by all map tasks (ms)=4229
+		Total time spent by all reduce tasks (ms)=3172
+		Total vcore-seconds taken by all map tasks=4229
+		Total vcore-seconds taken by all reduce tasks=3172
+		Total megabyte-seconds taken by all map tasks=4330496
+		Total megabyte-seconds taken by all reduce tasks=3248128
+	Map-Reduce Framework
+		Map input records=100000
+		Map output records=1300888
+		Map output bytes=53837296
+		Map output materialized bytes=56483400
+		Input split bytes=137
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=100000
+		Reduce shuffle bytes=56483400
+		Reduce input records=1300888
+		Reduce output records=100000
+		Spilled Records=2601776
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=98
+		CPU time spent (ms)=8730
+		Physical memory (bytes) snapshot=583966720
+		Virtual memory (bytes) snapshot=4366585856
+		Total committed heap usage (bytes)=339214336
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=13940391
+	File Output Format Counters 
+		Bytes Written=13940391
+19/03/03 22:53:51 INFO client.RMProxy: Connecting to ResourceManager at comet-14-42.ibnet/10.22.252.117:8032
+19/03/03 22:53:51 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+19/03/03 22:53:51 INFO input.FileInputFormat: Total input paths to process : 1
+19/03/03 22:53:51 INFO mapreduce.JobSubmitter: number of splits:1
+19/03/03 22:53:51 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1551682335087_0006
+19/03/03 22:53:51 INFO impl.YarnClientImpl: Submitted application application_1551682335087_0006
+19/03/03 22:53:51 INFO mapreduce.Job: The url to track the job: http://comet-14-42.ibnet:8088/proxy/application_1551682335087_0006/
+19/03/03 22:53:51 INFO mapreduce.Job: Running job: job_1551682335087_0006
+19/03/03 22:53:55 INFO mapreduce.Job: Job job_1551682335087_0006 running in uber mode : false
+19/03/03 22:53:55 INFO mapreduce.Job:  map 0% reduce 0%
+19/03/03 22:54:02 INFO mapreduce.Job:  map 100% reduce 0%
+19/03/03 22:54:08 INFO mapreduce.Job:  map 100% reduce 100%
+19/03/03 22:54:08 INFO mapreduce.Job: Job job_1551682335087_0006 completed successfully
+19/03/03 22:54:08 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=56483400
+		FILE: Number of bytes written=113619869
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=13940528
+		HDFS: Number of bytes written=13940391
+		HDFS: Number of read operations=7
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=4439
+		Total time spent by all reduces in occupied slots (ms)=3222
+		Total time spent by all map tasks (ms)=4439
+		Total time spent by all reduce tasks (ms)=3222
+		Total vcore-seconds taken by all map tasks=4439
+		Total vcore-seconds taken by all reduce tasks=3222
+		Total megabyte-seconds taken by all map tasks=4545536
+		Total megabyte-seconds taken by all reduce tasks=3299328
+	Map-Reduce Framework
+		Map input records=100000
+		Map output records=1300888
+		Map output bytes=53837296
+		Map output materialized bytes=56483400
+		Input split bytes=137
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=100000
+		Reduce shuffle bytes=56483400
+		Reduce input records=1300888
+		Reduce output records=100000
+		Spilled Records=2601776
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=90
+		CPU time spent (ms)=9370
+		Physical memory (bytes) snapshot=630980608
+		Virtual memory (bytes) snapshot=4422451200
+		Total committed heap usage (bytes)=338165760
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=13940391
+	File Output Format Counters 
+		Bytes Written=13940391
+19/03/03 22:54:08 INFO client.RMProxy: Connecting to ResourceManager at comet-14-42.ibnet/10.22.252.117:8032
+19/03/03 22:54:08 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+19/03/03 22:54:08 INFO input.FileInputFormat: Total input paths to process : 1
+19/03/03 22:54:08 INFO mapreduce.JobSubmitter: number of splits:1
+19/03/03 22:54:08 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1551682335087_0007
+19/03/03 22:54:08 INFO impl.YarnClientImpl: Submitted application application_1551682335087_0007
+19/03/03 22:54:08 INFO mapreduce.Job: The url to track the job: http://comet-14-42.ibnet:8088/proxy/application_1551682335087_0007/
+19/03/03 22:54:08 INFO mapreduce.Job: Running job: job_1551682335087_0007
+19/03/03 22:54:13 INFO mapreduce.Job: Job job_1551682335087_0007 running in uber mode : false
+19/03/03 22:54:13 INFO mapreduce.Job:  map 0% reduce 0%
+19/03/03 22:54:17 INFO mapreduce.Job:  map 100% reduce 0%
+19/03/03 22:54:22 INFO mapreduce.Job:  map 100% reduce 100%
+19/03/03 22:54:22 INFO mapreduce.Job: Job job_1551682335087_0007 completed successfully
+19/03/03 22:54:22 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1800006
+		FILE: Number of bytes written=3811867
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=13940528
+		HDFS: Number of bytes written=64
+		HDFS: Number of read operations=7
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=2131
+		Total time spent by all reduces in occupied slots (ms)=2012
+		Total time spent by all map tasks (ms)=2131
+		Total time spent by all reduce tasks (ms)=2012
+		Total vcore-seconds taken by all map tasks=2131
+		Total vcore-seconds taken by all reduce tasks=2012
+		Total megabyte-seconds taken by all map tasks=2182144
+		Total megabyte-seconds taken by all reduce tasks=2060288
+	Map-Reduce Framework
+		Map input records=100000
+		Map output records=100000
+		Map output bytes=1600000
+		Map output materialized bytes=1800006
+		Input split bytes=137
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=12
+		Reduce shuffle bytes=1800006
+		Reduce input records=100000
+		Reduce output records=12
+		Spilled Records=200000
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=76
+		CPU time spent (ms)=5210
+		Physical memory (bytes) snapshot=648568832
+		Virtual memory (bytes) snapshot=4451061760
+		Total committed heap usage (bytes)=340262912
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=13940391
+	File Output Format Counters 
+		Bytes Written=64
+19/03/03 22:54:22 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+stopping yarn daemons
+stopping resourcemanager
+comet-14-52.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-52.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-52.ibnet: /usr/bin/xauth:  error in locking authority file /home/ssatone/.Xauthority
+comet-14-52.ibnet: stopping nodemanager
+comet-14-52.ibnet: nodemanager did not stop gracefully after 5 seconds: killing with kill -9
+comet-14-42.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-42.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-42.ibnet: stopping nodemanager
+comet-14-42.ibnet: nodemanager did not stop gracefully after 5 seconds: killing with kill -9
+comet-14-57.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-57.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-57.ibnet: stopping nodemanager
+comet-14-57.ibnet: nodemanager did not stop gracefully after 5 seconds: killing with kill -9
+no proxyserver to stop
+19/03/03 22:54:34 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Stopping namenodes on [comet-14-42.ibnet]
+comet-14-42.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-42.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-42.ibnet: stopping namenode
+comet-14-52.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-52.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-52.ibnet: /usr/bin/xauth:  error in locking authority file /home/ssatone/.Xauthority
+comet-14-52.ibnet: stopping datanode
+comet-14-57.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-57.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-57.ibnet: /usr/bin/xauth:  error in locking authority file /home/ssatone/.Xauthority
+comet-14-57.ibnet: stopping datanode
+comet-14-42.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-42.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-42.ibnet: stopping datanode
+Stopping secondary namenodes [comet-14-42.ibnet]
+comet-14-42.ibnet: Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+comet-14-42.ibnet: Warning: No xauth data; using fake authentication data for X11 forwarding.
+comet-14-42.ibnet: stopping secondarynamenode
+19/03/03 22:54:53 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Copying Hadoop logs back to /home/ssatone/cometcluster/logs...
+`/scratch/ssatone/21749509/logs' -> `/home/ssatone/cometcluster/logs'
+`/scratch/ssatone/21749509/logs/hadoop-ssatone-datanode-comet-14-42.sdsc.edu.log' -> `/home/ssatone/cometcluster/logs/hadoop-ssatone-datanode-comet-14-42.sdsc.edu.log'
+`/scratch/ssatone/21749509/logs/hadoop-ssatone-secondarynamenode-comet-14-42.sdsc.edu.out' -> `/home/ssatone/cometcluster/logs/hadoop-ssatone-secondarynamenode-comet-14-42.sdsc.edu.out'
+`/scratch/ssatone/21749509/logs/userlogs' -> `/home/ssatone/cometcluster/logs/userlogs'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0002'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000001' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000001'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000001/stdout' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000001/stdout'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000001/syslog' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000001/syslog'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000001/stderr' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000001/stderr'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000002' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000002'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000002/stderr' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000002/stderr'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000002/stdout' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000002/stdout'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000002/syslog' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000002/syslog'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000003' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000003'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000003/stdout' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000003/stdout'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000003/syslog' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000003/syslog'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000003/stderr' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000003/stderr'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0006'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000002' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000002'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000002/stdout' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000002/stdout'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000002/syslog' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000002/syslog'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000002/stderr' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000002/stderr'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0001'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000001' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000001'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000001/syslog' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000001/syslog'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000001/stdout' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000001/stdout'
+`/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000001/stderr' -> `/home/ssatone/cometcluster/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000001/stderr'
+`/scratch/ssatone/21749509/logs/hadoop-ssatone-namenode-comet-14-42.sdsc.edu.log' -> `/home/ssatone/cometcluster/logs/hadoop-ssatone-namenode-comet-14-42.sdsc.edu.log'
+`/scratch/ssatone/21749509/logs/yarn-ssatone-nodemanager-comet-14-42.sdsc.edu.out' -> `/home/ssatone/cometcluster/logs/yarn-ssatone-nodemanager-comet-14-42.sdsc.edu.out'
+`/scratch/ssatone/21749509/logs/yarn-ssatone-resourcemanager-comet-14-42.log' -> `/home/ssatone/cometcluster/logs/yarn-ssatone-resourcemanager-comet-14-42.log'
+`/scratch/ssatone/21749509/logs/yarn-ssatone-nodemanager-comet-14-42.sdsc.edu.log' -> `/home/ssatone/cometcluster/logs/yarn-ssatone-nodemanager-comet-14-42.sdsc.edu.log'
+`/scratch/ssatone/21749509/logs/yarn-ssatone-resourcemanager-comet-14-42.out' -> `/home/ssatone/cometcluster/logs/yarn-ssatone-resourcemanager-comet-14-42.out'
+`/scratch/ssatone/21749509/logs/SecurityAuth-ssatone.audit' -> `/home/ssatone/cometcluster/logs/SecurityAuth-ssatone.audit'
+`/scratch/ssatone/21749509/logs/hadoop-ssatone-namenode-comet-14-42.sdsc.edu.out' -> `/home/ssatone/cometcluster/logs/hadoop-ssatone-namenode-comet-14-42.sdsc.edu.out'
+`/scratch/ssatone/21749509/logs/hadoop-ssatone-datanode-comet-14-42.sdsc.edu.out' -> `/home/ssatone/cometcluster/logs/hadoop-ssatone-datanode-comet-14-42.sdsc.edu.out'
+`/scratch/ssatone/21749509/logs/hadoop-ssatone-secondarynamenode-comet-14-42.sdsc.edu.log' -> `/home/ssatone/cometcluster/logs/hadoop-ssatone-secondarynamenode-comet-14-42.sdsc.edu.log'
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+Warning: No xauth data; using fake authentication data for X11 forwarding.
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/usercache/ssatone/filecache'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/usercache/ssatone/appcache'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/usercache/ssatone'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/usercache'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/nmPrivate'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/filecache'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch'
+removed `/scratch/ssatone/21749509/tmp/dfs/namesecondary/current/VERSION'
+removed `/scratch/ssatone/21749509/tmp/dfs/namesecondary/current/fsimage_0000000000000000222'
+removed `/scratch/ssatone/21749509/tmp/dfs/namesecondary/current/fsimage_0000000000000000000'
+removed `/scratch/ssatone/21749509/tmp/dfs/namesecondary/current/edits_0000000000000000001-0000000000000000222'
+removed `/scratch/ssatone/21749509/tmp/dfs/namesecondary/current/fsimage_0000000000000000000.md5'
+removed `/scratch/ssatone/21749509/tmp/dfs/namesecondary/current/fsimage_0000000000000000222.md5'
+removed directory: `/scratch/ssatone/21749509/tmp/dfs/namesecondary/current'
+removed directory: `/scratch/ssatone/21749509/tmp/dfs/namesecondary'
+removed directory: `/scratch/ssatone/21749509/tmp/dfs'
+removed directory: `/scratch/ssatone/21749509/tmp'
+removed `/scratch/ssatone/21749509/namenode_data/current/edits_0000000000000000001-0000000000000000222'
+removed `/scratch/ssatone/21749509/namenode_data/current/VERSION'
+removed `/scratch/ssatone/21749509/namenode_data/current/seen_txid'
+removed `/scratch/ssatone/21749509/namenode_data/current/edits_inprogress_0000000000000000223'
+removed `/scratch/ssatone/21749509/namenode_data/current/fsimage_0000000000000000222.md5'
+removed `/scratch/ssatone/21749509/namenode_data/current/fsimage_0000000000000000000'
+removed `/scratch/ssatone/21749509/namenode_data/current/fsimage_0000000000000000222'
+removed `/scratch/ssatone/21749509/namenode_data/current/fsimage_0000000000000000000.md5'
+removed directory: `/scratch/ssatone/21749509/namenode_data/current'
+removed directory: `/scratch/ssatone/21749509/namenode_data'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/dncp_block_verification.log.prev'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/VERSION'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/rbw'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/dfsUsed'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741832_1008.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741845_1021.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741894_1070.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741864'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741842_1018.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741893'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741845'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741832'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741872_1048.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741862_1038.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741874_1050.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741835'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741842'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741894'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741892_1068.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741834_1010.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741863'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741883'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741875_1051.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741855'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741893_1069.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741835_1011.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741874'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741833_1009.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741873'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741844_1020.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741895_1071.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741852'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741825'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741873_1049.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741863_1039.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741843_1019.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741884'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741865_1041.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741862'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741843'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741834'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741825_1001.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741852_1028.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741895'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741892'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741885_1061.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741854_1030.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741833'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741844'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741865'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741882_1058.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741853'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741885'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741884_1060.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741855_1031.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741872'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741883_1059.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741875'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741864_1040.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741853_1029.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741882'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741854'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/dncp_block_verification.log.curr'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/tmp'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059'
+removed `/scratch/ssatone/21749509/hdfs_data/current/VERSION'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current'
+removed directory: `/scratch/ssatone/21749509/hdfs_data'
+removed directory: `/scratch/ssatone/21749509/pids'
+removed `/scratch/ssatone/21749509/logs/hadoop-ssatone-datanode-comet-14-42.sdsc.edu.log'
+removed `/scratch/ssatone/21749509/logs/hadoop-ssatone-secondarynamenode-comet-14-42.sdsc.edu.out'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000001/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000001/syslog'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000001/stderr'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000001'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000002/stderr'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000002/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000002/syslog'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000002'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000003/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000003/syslog'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000003/stderr'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002/container_1551682335087_0002_01_000003'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0002'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000002/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000002/syslog'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000002/stderr'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000002'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000001/syslog'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000001/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000001/stderr'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000001'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs'
+removed `/scratch/ssatone/21749509/logs/hadoop-ssatone-namenode-comet-14-42.sdsc.edu.log'
+removed `/scratch/ssatone/21749509/logs/yarn-ssatone-nodemanager-comet-14-42.sdsc.edu.out'
+removed `/scratch/ssatone/21749509/logs/yarn-ssatone-resourcemanager-comet-14-42.log'
+removed `/scratch/ssatone/21749509/logs/yarn-ssatone-nodemanager-comet-14-42.sdsc.edu.log'
+removed `/scratch/ssatone/21749509/logs/yarn-ssatone-resourcemanager-comet-14-42.out'
+removed `/scratch/ssatone/21749509/logs/SecurityAuth-ssatone.audit'
+removed `/scratch/ssatone/21749509/logs/hadoop-ssatone-namenode-comet-14-42.sdsc.edu.out'
+removed `/scratch/ssatone/21749509/logs/hadoop-ssatone-datanode-comet-14-42.sdsc.edu.out'
+removed `/scratch/ssatone/21749509/logs/hadoop-ssatone-secondarynamenode-comet-14-42.sdsc.edu.log'
+removed directory: `/scratch/ssatone/21749509/logs'
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+Warning: No xauth data; using fake authentication data for X11 forwarding.
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/usercache/ssatone/filecache'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/usercache/ssatone/appcache'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/usercache/ssatone'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/usercache'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/nmPrivate'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/filecache'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch'
+removed `/scratch/ssatone/21749509/hdfs_data/current/VERSION'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/dncp_block_verification.log.prev'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/tmp'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/dncp_block_verification.log.curr'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/dfsUsed'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741884'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741845_1021.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741894_1070.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741832_1008.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741852'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741825'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741872_1048.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741862_1038.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741873'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741842_1018.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741874'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741874_1050.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741855'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741834_1010.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741892_1068.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741883'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741875_1051.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741863'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741894'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741835'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741842'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741835_1011.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741893_1069.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741844_1020.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741895_1071.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741833_1009.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741845'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741832'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741893'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741843_1019.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741873_1049.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741863_1039.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741864'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741854'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741882'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741865_1041.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741852_1028.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741825_1001.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741875'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741872'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741885_1061.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741854_1030.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741885'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741882_1058.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741853'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741884_1060.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741855_1031.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741865'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741883_1059.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741833'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741844'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741892'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741895'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741864_1040.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741843'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741834'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741862'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741853_1029.meta'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/VERSION'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/rbw'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current'
+removed directory: `/scratch/ssatone/21749509/hdfs_data'
+removed directory: `/scratch/ssatone/21749509/pids'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000002/stderr'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000002/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000002/syslog'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000002'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0005/container_1551682335087_0005_01_000003/stderr'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0005/container_1551682335087_0005_01_000003/syslog'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0005/container_1551682335087_0005_01_000003/stdout'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0005/container_1551682335087_0005_01_000003'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0005/container_1551682335087_0005_01_000001/syslog'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0005/container_1551682335087_0005_01_000001/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0005/container_1551682335087_0005_01_000001/stderr'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0005/container_1551682335087_0005_01_000001'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0005/container_1551682335087_0005_01_000002/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0005/container_1551682335087_0005_01_000002/syslog'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0005/container_1551682335087_0005_01_000002/stderr'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0005/container_1551682335087_0005_01_000002'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0005'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0004/container_1551682335087_0004_01_000002/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0004/container_1551682335087_0004_01_000002/syslog'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0004/container_1551682335087_0004_01_000002/stderr'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0004/container_1551682335087_0004_01_000002'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0004/container_1551682335087_0004_01_000001/stderr'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0004/container_1551682335087_0004_01_000001/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0004/container_1551682335087_0004_01_000001/syslog'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0004/container_1551682335087_0004_01_000001'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0004/container_1551682335087_0004_01_000003/stderr'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0004/container_1551682335087_0004_01_000003/syslog'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0004/container_1551682335087_0004_01_000003/stdout'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0004/container_1551682335087_0004_01_000003'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0004'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs'
+removed `/scratch/ssatone/21749509/logs/SecurityAuth-ssatone.audit'
+removed `/scratch/ssatone/21749509/logs/yarn-ssatone-nodemanager-comet-14-52.sdsc.edu.out'
+removed `/scratch/ssatone/21749509/logs/hadoop-ssatone-datanode-comet-14-52.sdsc.edu.out'
+removed `/scratch/ssatone/21749509/logs/yarn-ssatone-nodemanager-comet-14-52.sdsc.edu.log'
+removed `/scratch/ssatone/21749509/logs/hadoop-ssatone-datanode-comet-14-52.sdsc.edu.log'
+removed directory: `/scratch/ssatone/21749509/logs'
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+Warning: No xauth data; using fake authentication data for X11 forwarding.
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/filecache'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/usercache/ssatone/filecache'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/usercache/ssatone/appcache'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/usercache/ssatone'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/usercache'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch/nmPrivate'
+removed directory: `/scratch/ssatone/21749509/mapred_scratch'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/dncp_block_verification.log.prev'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/rbw'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/dfsUsed'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741863_1039.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741873_1049.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741874'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741843_1019.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741855'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741844_1020.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741895_1071.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741883'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741833_1009.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741884'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741835_1011.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741893_1069.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741852'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741825'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741873'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741875_1051.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741845'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741832'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741893'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741834_1010.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741892_1068.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741874_1050.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741864'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741863'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741842_1018.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741862_1038.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741872_1048.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741845_1021.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741894_1070.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741894'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741832_1008.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741835'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741842'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741872'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741853_1029.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741885'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741853'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741864_1040.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741854'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741883_1059.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741882'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741884_1060.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741855_1031.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741875'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741882_1058.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741895'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741843'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741834'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741885_1061.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741854_1030.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741862'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741865'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741852_1028.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741825_1001.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741833'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741844'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741865_1041.meta'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0/blk_1073741892'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0/subdir0'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized/subdir0'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/finalized'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current/VERSION'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/current'
+removed `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/dncp_block_verification.log.curr'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059/tmp'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current/BP-1238579605-198.202.114.241-1551682317059'
+removed `/scratch/ssatone/21749509/hdfs_data/current/VERSION'
+removed directory: `/scratch/ssatone/21749509/hdfs_data/current'
+removed directory: `/scratch/ssatone/21749509/hdfs_data'
+removed directory: `/scratch/ssatone/21749509/pids'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0007/container_1551682335087_0007_01_000003/stderr'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0007/container_1551682335087_0007_01_000003/syslog'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0007/container_1551682335087_0007_01_000003/stdout'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0007/container_1551682335087_0007_01_000003'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0007/container_1551682335087_0007_01_000002/stderr'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0007/container_1551682335087_0007_01_000002/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0007/container_1551682335087_0007_01_000002/syslog'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0007/container_1551682335087_0007_01_000002'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0007/container_1551682335087_0007_01_000001/stderr'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0007/container_1551682335087_0007_01_000001/syslog'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0007/container_1551682335087_0007_01_000001/stdout'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0007/container_1551682335087_0007_01_000001'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0007'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0003/container_1551682335087_0003_01_000003/stderr'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0003/container_1551682335087_0003_01_000003/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0003/container_1551682335087_0003_01_000003/syslog'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0003/container_1551682335087_0003_01_000003'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0003/container_1551682335087_0003_01_000001/stderr'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0003/container_1551682335087_0003_01_000001/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0003/container_1551682335087_0003_01_000001/syslog'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0003/container_1551682335087_0003_01_000001'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0003/container_1551682335087_0003_01_000002/stderr'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0003/container_1551682335087_0003_01_000002/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0003/container_1551682335087_0003_01_000002/syslog'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0003/container_1551682335087_0003_01_000002'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0003'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000003/syslog'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000003/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000003/stderr'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001/container_1551682335087_0001_01_000003'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0001'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000001/stderr'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000001/stdout'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000001/syslog'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000001'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000003/stderr'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000003/syslog'
+removed `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000003/stdout'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006/container_1551682335087_0006_01_000003'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs/application_1551682335087_0006'
+removed directory: `/scratch/ssatone/21749509/logs/userlogs'
+removed `/scratch/ssatone/21749509/logs/SecurityAuth-ssatone.audit'
+removed `/scratch/ssatone/21749509/logs/yarn-ssatone-nodemanager-comet-14-57.sdsc.edu.log'
+removed `/scratch/ssatone/21749509/logs/hadoop-ssatone-datanode-comet-14-57.sdsc.edu.out'
+removed `/scratch/ssatone/21749509/logs/hadoop-ssatone-datanode-comet-14-57.sdsc.edu.log'
+removed `/scratch/ssatone/21749509/logs/yarn-ssatone-nodemanager-comet-14-57.sdsc.edu.out'
+removed directory: `/scratch/ssatone/21749509/logs'
+removed directory: `/tmp/Jetty_0_0_0_0_50070_hdfs____w2cu08_6083062605264058553/jsp'
+removed directory: `/tmp/Jetty_0_0_0_0_50070_hdfs____w2cu08_6083062605264058553/.active'
+removed directory: `/tmp/Jetty_0_0_0_0_50070_hdfs____w2cu08_6083062605264058553'
+removed directory: `/tmp/Jetty_comet.14.42_ibnet_50090_secondary____.kbl0sy/jsp'
+removed directory: `/tmp/Jetty_comet.14.42_ibnet_50090_secondary____.kbl0sy/.active'
+removed directory: `/tmp/Jetty_comet.14.42_ibnet_50090_secondary____.kbl0sy'
+removed directory: `/tmp/Jetty_0_0_0_0_50075_datanode____hwtdwq_4145407813900051978/jsp'
+removed directory: `/tmp/Jetty_0_0_0_0_50075_datanode____hwtdwq_4145407813900051978/.active'
+removed directory: `/tmp/Jetty_0_0_0_0_50075_datanode____hwtdwq_4145407813900051978'

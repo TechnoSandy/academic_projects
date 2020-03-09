@@ -1,0 +1,1684 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://lambda.uta.edu/cse6331/
+Subject: CSE6331 Home Page
+Date: Mon, 4 Mar 2019 08:05:05 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--RgQya6FCPeDPts3fBrIClAi1RrFjw1ISoZ772Sddp6----"
+
+
+------MultipartBoundary--RgQya6FCPeDPts3fBrIClAi1RrFjw1ISoZ772Sddp6----
+Content-Type: text/html
+Content-ID: <frame-E279C9FD0805C8ED84A0E163620BBEE6@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://lambda.uta.edu/cse6331/
+
+<html class=3D"gr__lambda_uta_edu"><head><meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3Dwindows-1252">
+<link rel=3D"shortcut icon" href=3D"https://lambda.uta.edu/favicon.ico" typ=
+e=3D"image/x-icon">
+<link rel=3D"icon" href=3D"https://lambda.uta.edu/favicon.ico" type=3D"imag=
+e/x-icon">
+<title>CSE6331 Home Page</title>
+</head>
+
+<frameset cols=3D"161,*" framespacing=3D"2" border=3D"1" frameborder=3D"1" =
+data-gr-c-s-loaded=3D"true">
+  <frame name=3D"contents" target=3D"main" src=3D"cid:frame-140CF0984FB23D4=
+F33C23FF04F9F3D88@mhtml.blink" scrolling=3D"auto" noresize=3D"" marginwidth=
+=3D"15" marginheight=3D"16">
+  <frame name=3D"Main" src=3D"cid:frame-AD61AB3C416B1E141141B80FF177DCD2@mh=
+tml.blink" target=3D"_self">
+  <noframes>
+     <body leftmargin=3D"0">
+         <p>This page uses frames, but your browser doesn't support them.</=
+p>
+     </body>
+  </noframes>
+</frameset>
+
+<div id=3D"__genieContainer" style=3D"all: initial;"><template shadowmode=
+=3D"open"><style>@import "chrome-extension://jjfblogammkiefalfpafidabbnamok=
+nm/built/inject.css";</style><div id=3D"rmnGenieWrappingDiv" style=3D"displ=
+ay: none;"><!----> <div></div></div></template></div></html>
+------MultipartBoundary--RgQya6FCPeDPts3fBrIClAi1RrFjw1ISoZ772Sddp6----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://jjfblogammkiefalfpafidabbnamoknm/built/inject.css
+
+@charset "windows-1252";
+
+#rmnGenieWrappingDiv .back-icon[data-v-3fcf4d54] { cursor: pointer; fill: r=
+gb(89, 89, 89); }
+
+#rmnGenieWrappingDiv .back-icon[data-v-3fcf4d54]:hover { fill: rgb(64, 64, =
+64); }
+
+@keyframes spin-data-v-f6209b02 {=20
+  100% { transform: rotate(1turn); }
+}
+
+@keyframes glow-data-v-f6209b02 {=20
+  100% { box-shadow: rgba(245, 190, 68, 0.6) 0px 0px 23px 0px; }
+}
+
+#rmnGenieWrappingDiv .bbb-loading-spinner[data-v-f6209b02] { --box-shadow-g=
+low-duration: 500ms; animation: spin-data-v-f6209b02 1000ms linear 0s infin=
+ite normal none running, glow-data-v-f6209b02 500ms linear 0s infinite alte=
+rnate none running; background: url("loading-ring.png") center center no-re=
+peat transparent; border-radius: 999px; box-shadow: rgba(245, 190, 68, 0.24=
+) 0px 0px 23px 0px; width: 54px; height: 54px; overflow: hidden; position: =
+relative; margin-top: 10px; }
+
+#rmnGenieWrappingDiv .bbb-loading-spinner.transition-spin[data-v-f6209b02] =
+{ animation: none 0s ease 0s 1 normal none running; }
+
+#rmnGenieWrappingDiv .bbb-loading-spinner.transition-box-shadow[data-v-f620=
+9b02] { box-shadow: rgba(245, 190, 68, 0.6) 0px 0px 23px 0px; }
+
+#rmnGenieWrappingDiv .cbo-action-wrapper[data-v-540ef82a] { align-items: ce=
+nter; display: flex; flex-flow: column nowrap; }
+
+#rmnGenieWrappingDiv .cbo-action-wrapper .activated-text[data-v-540ef82a] {=
+ color: rgb(76, 24, 243); padding-top: 1em; }
+
+#rmnGenieWrappingDiv .first-message-modal[data-v-325e46fe] { position: abso=
+lute; min-height: 0px; transform: translateY(10px); }
+
+#rmnGenieWrappingDiv .first-message-modal[data-v-325e46fe] :first-child { f=
+ont-weight: bold; }
+
+#rmnGenieWrappingDiv .slide-fade-enter-active[data-v-325e46fe], #rmnGenieWr=
+appingDiv .slide-fade-leave-active[data-v-325e46fe] { transition: transform=
+ 400ms ease 0s, opacity 200ms ease 0s !important; }
+
+#rmnGenieWrappingDiv .slide-fade-enter-to[data-v-325e46fe], #rmnGenieWrappi=
+ngDiv .slide-fade-leave[data-v-325e46fe] { opacity: 1; }
+
+#rmnGenieWrappingDiv .slide-fade-enter[data-v-325e46fe], #rmnGenieWrappingD=
+iv .slide-fade-leave-to[data-v-325e46fe] { opacity: 0; transform: none; }
+
+#rmnGenieWrappingDiv .cbo-ui[data-v-4a06936a] { max-height: 500px; transiti=
+on: max-height 200ms ease 0s, margin 200ms ease 0s; }
+
+#rmnGenieWrappingDiv .bbb-sidecar .cbo-ui[data-v-4a06936a] { flex: 1 1 0%; =
+display: flex; flex-direction: column; justify-content: center; }
+
+#rmnGenieWrappingDiv .flatten[data-v-4a06936a] { max-height: 0px; margin: 0=
+px; }
+
+#rmnGenieWrappingDiv .add-cb-text .primary-text[data-v-4a06936a]::after { c=
+ontent: "Cash Back"; white-space: nowrap; }
+
+#rmnGenieWrappingDiv .bbb-close-button { cursor: pointer; stroke: rgb(89, 8=
+9, 89); position: absolute; right: 21px; top: 21px; transition: stroke 500m=
+s ease 500ms; z-index: 100; }
+
+#rmnGenieWrappingDiv .bbb-close-button.on-dark-bg { stroke: rgb(255, 255, 2=
+55); }
+
+#rmnGenieWrappingDiv header[data-v-7a7c18e6] { background: white; }
+
+#rmnGenieWrappingDiv .back-icon[data-v-7a7c18e6] { margin-left: 1.5em; }
+
+#rmnGenieWrappingDiv .search-icon[data-v-7a7c18e6] { width: 15px; margin-ri=
+ght: 0.5em; }
+
+#rmnGenieWrappingDiv .search-container[data-v-7a7c18e6] { margin-left: 30px=
+; display: flex; flex-grow: 1; }
+
+#rmnGenieWrappingDiv .search-form[data-v-7a7c18e6] { border: 0px; flex-grow=
+: 1; color: rgb(128, 128, 128); }
+
+#rmnGenieWrappingDiv .search-form[data-v-7a7c18e6]::-webkit-input-placehold=
+er { color: silver; }
+
+#rmnGenieWrappingDiv .search-form[data-v-7a7c18e6]:focus { outline: none; }
+
+#rmnGenieWrappingDiv .relaunch-container[data-v-43659c21] { position: fixed=
+; top: 0px; right: 0px; bottom: 0px; left: 0px; display: flex; justify-cont=
+ent: center; align-items: center; }
+
+#rmnGenieWrappingDiv .progress-bar[data-v-34b4274e] { --bbbGoldRgba: rgba(2=
+55, 175, 36, 0); background-color: rgba(255, 255, 255, 0.11); border-radius=
+: 999px; margin-top: 1em; position: relative; height: 35px; width: 310px; }
+
+#rmnGenieWrappingDiv .progress-bar .progress[data-v-34b4274e] { background-=
+color: rgb(255, 175, 36); border-radius: 999px; box-shadow: 0 0 30px var(--=
+bbbGoldRgba); position: absolute; height: 100%; top: 0px; transition: box-s=
+hadow 333ms ease 0s, width 333ms ease 0s; }
+
+#rmnGenieWrappingDiv .merchant-search-container[data-v-5fe2a3ee] { width: 4=
+70px; background-color: rgb(251, 250, 255); }
+
+#rmnGenieWrappingDiv .merchant-search-container .merchant-search-body[data-=
+v-5fe2a3ee] { padding: 1.5em 3em; height: 565px; overflow-y: scroll; }
+
+#rmnGenieWrappingDiv .merchant-search-container .search-header[data-v-5fe2a=
+3ee] { font-weight: bold; margin: 0px auto 1.5em; text-align: center; width=
+: 75%; }
+
+#rmnGenieWrappingDiv .merchant-search-container .store-container[data-v-5fe=
+2a3ee] { margin-bottom: 2em; display: flex; justify-content: space-between;=
+ align-items: center; }
+
+#rmnGenieWrappingDiv .merchant-search-container .store-logo-container[data-=
+v-5fe2a3ee] { background-color: white; flex: 0 0 72px; height: 72px; }
+
+#rmnGenieWrappingDiv .merchant-search-container .store-logo-container img[d=
+ata-v-5fe2a3ee] { box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 8px 0px; height: =
+100%; max-width: 100%; object-fit: scale-down; }
+
+#rmnGenieWrappingDiv .merchant-search-container .store-title-and-offers-con=
+tainer[data-v-5fe2a3ee] { flex: 0 0 180px; }
+
+#rmnGenieWrappingDiv .merchant-search-container .store-title-and-offers-con=
+tainer .store-title[data-v-5fe2a3ee] { margin: 0px; }
+
+#rmnGenieWrappingDiv .merchant-search-container .store-title-and-offers-con=
+tainer button[data-v-5fe2a3ee] { margin-top: 0.25em; }
+
+#rmnGenieWrappingDiv .list-view-container { background: rgb(255, 255, 255);=
+ width: 470px; }
+
+#rmnGenieWrappingDiv .list-view-container .list-view-body { max-height: 550=
+px; overflow: hidden auto; position: relative; }
+
+#rmnGenieWrappingDiv .list-view-container .cta-wrapper { border-bottom: 1px=
+ solid rgb(231, 231, 231); }
+
+#rmnGenieWrappingDiv .list-view-container .bbb-container-gray, #rmnGenieWra=
+ppingDiv .list-view-container .bbb-container-light, #rmnGenieWrappingDiv .l=
+ist-view-container .bbb-container-dark { min-height: 220px; }
+
+#rmnGenieWrappingDiv .list-view-container .codes-wrapper { padding: 1em 2.5=
+em; }
+
+#rmnGenieWrappingDiv .list-view-container .code-section-header { text-align=
+: center; font-size: 20px; margin: 0.75em 0px 0.5em; }
+
+#rmnGenieWrappingDiv .list-view-container .code-container { padding: 1em 0p=
+x; display: flex; align-items: flex-start; justify-content: space-between; =
+}
+
+#rmnGenieWrappingDiv .list-view-container .code-container .code-info-text {=
+ width: 275px; }
+
+#rmnGenieWrappingDiv .list-view-container .code-container .code-info-text .=
+title { font-weight: bold; }
+
+#rmnGenieWrappingDiv .list-view-container footer { border-top: 1px solid rg=
+b(231, 231, 231); display: flex; align-items: center; justify-content: spac=
+e-between; padding: 0.75em 7em; }
+
+#rmnGenieWrappingDiv .list-view-container footer .icon { cursor: pointer; m=
+argin: 10px 0px; }
+
+#rmnGenieWrappingDiv .bbb-overlay[data-v-64d6a78c] { position: fixed; top: =
+0px; right: 0px; bottom: 0px; left: 0px; background: rgba(0, 0, 0, 0.5); cu=
+rsor: pointer; z-index: 0; }
+
+#rmnGenieWrappingDiv .primary-text[data-v-5e1d5c32] { max-width: 340px; }
+
+#rmnGenieWrappingDiv .sidecar-continue-button[data-v-5e1d5c32] { margin-top=
+: 0px; }
+
+#rmnGenieWrappingDiv .genie-survey-wrapper[data-v-2f25a8f0] { align-items: =
+center; display: flex; justify-content: space-between; margin: 5px 0px 50px=
+; position: relative; width: 300px; }
+
+#rmnGenieWrappingDiv .genie-survey-wrapper hr[data-v-2f25a8f0] { border-col=
+or: rgb(231, 231, 231); margin: 0px auto; padding: 0px; position: absolute;=
+ top: 50%; transform: translateY(-50%); width: 99%; }
+
+#rmnGenieWrappingDiv .genie-survey-wrapper[data-v-2f25a8f0]::before, #rmnGe=
+nieWrappingDiv .genie-survey-wrapper[data-v-2f25a8f0]::after { position: ab=
+solute; top: 50%; transform: translateY(-50%); }
+
+#rmnGenieWrappingDiv .genie-survey-wrapper[data-v-2f25a8f0]::before { conte=
+nt: "0"; right: calc(100% + 1em); }
+
+#rmnGenieWrappingDiv .genie-survey-wrapper[data-v-2f25a8f0]::after { conten=
+t: "10"; left: calc(100% + 1em); }
+
+#rmnGenieWrappingDiv .genie-survey-wrapper input[type=3D"radio"][data-v-2f2=
+5a8f0] { -webkit-appearance: none; display: block; margin: 0px; padding: 0p=
+x; width: 0.4em; height: 0.4em; border: 3px solid transparent; border-radiu=
+s: 999px; background-color: rgb(231, 231, 231); font-size: 15px; box-sizing=
+: content-box; background-clip: content-box; position: relative; text-align=
+: center; }
+
+#rmnGenieWrappingDiv .genie-survey-wrapper input[type=3D"radio"][data-v-2f2=
+5a8f0]::before { content: ""; border-width: 7px; border-style: solid; borde=
+r-color: transparent transparent rgb(76, 24, 243); border-image: initial; b=
+ottom: -1em; }
+
+#rmnGenieWrappingDiv .genie-survey-wrapper input[type=3D"radio"][data-v-2f2=
+5a8f0]::after { content: attr(value); background-color: rgb(76, 24, 243); b=
+order-radius: 3px; bottom: -2.5em; color: white; padding: 5px; min-width: 2=
+5px; box-sizing: border-box; }
+
+#rmnGenieWrappingDiv .genie-survey-wrapper input[type=3D"radio"][data-v-2f2=
+5a8f0]::before, #rmnGenieWrappingDiv .genie-survey-wrapper input[type=3D"ra=
+dio"][data-v-2f25a8f0]::after { left: 50%; transform: translateX(-50%); opa=
+city: 0; position: absolute; }
+
+#rmnGenieWrappingDiv .genie-survey-wrapper input[type=3D"radio"][data-v-2f2=
+5a8f0]:checked::after, #rmnGenieWrappingDiv .genie-survey-wrapper input[typ=
+e=3D"radio"][data-v-2f25a8f0]:checked::before { opacity: 1; }
+
+#rmnGenieWrappingDiv .genie-survey-wrapper input[type=3D"radio"][data-v-2f2=
+5a8f0]:focus { outline: none; }
+
+#rmnGenieWrappingDiv .genie-survey-wrapper input[type=3D"radio"][data-v-2f2=
+5a8f0]:checked { border-color: rgb(76, 24, 243); background-color: rgb(76, =
+24, 243); background-clip: border-box; }
+
+#rmnGenieWrappingDiv .genie-survey-wrapper input[type=3D"radio"][data-v-2f2=
+5a8f0]:first-of-type { margin-left: -3px; }
+
+#rmnGenieWrappingDiv .genie-survey-wrapper input[type=3D"radio"][data-v-2f2=
+5a8f0]:last-of-type { margin-right: -3px; }
+
+#rmnGenieWrappingDiv .survey[data-v-1ddd1fce], #rmnGenieWrappingDiv .survey=
+-thanks[data-v-1ddd1fce] { background-color: rgb(255, 255, 255); font-weigh=
+t: bold; }
+
+#rmnGenieWrappingDiv .survey header[data-v-1ddd1fce], #rmnGenieWrappingDiv =
+.survey-thanks header[data-v-1ddd1fce] { background: url("data:image/svg+xm=
+l,%3Csvg xmlns=3D'http://www.w3.org/2000/svg' width=3D'204' height=3D'29'%3=
+E %3Cg fill=3D'none' fill-rule=3D'nonzero'%3E %3Cg fill=3D'%234c18f3'%3E %3=
+Cpath d=3D'M195.75 17.629c-.375.687-.9 1.221-1.5 1.755a6.536 6.536 0 0 1-1.=
+875 1.145c-.75.382-1.65.534-2.7.534-.675 0-1.35-.076-1.95-.305-.6-.23-1.05-=
+.458-1.5-.84-.45-.381-.75-.763-.975-1.297-.225-.534-.375-1.068-.375-1.679 0=
+-1.068.225-1.984.6-2.9.375-.84.9-1.603 1.425-2.213.6-.61 1.2-1.068 1.875-1.=
+45.675-.305 1.35-.534 1.95-.534.45 0 .825.076 1.2.229.375.152.675.381.975.6=
+87.3.305.525.61.675.915.15.382.225.687.225 1.069 0 .305-.075.763-.225 1.22a=
+4.16 4.16 0 0 1-.75 1.374c-.3.458-.825.764-1.35 1.069-.6.305-1.275.458-2.17=
+5.458-.225 0-.375 0-.6-.077-.15 0-.3-.076-.375-.076 0 .84.225 1.45.675 1.90=
+8.45.458 1.05.687 1.725.687s1.2-.153 1.725-.382c.525-.305.975-.534 1.35-.84=
+.45-.38.825-.762 1.125-1.297 0-.076.075-.152.15-.228l.15-.153c.075-.076.15-=
+.076.225-.076.15 0 .3.076.375.152.075.077.15.23.15.382 0 .076 0 .152-.075.2=
+29 0 .076-.075.152-.075.229 0 .152 0 .229-.075.305zm-7.35-1.984c.525 0 .975=
+-.153 1.425-.382.45-.305.825-.61 1.125-.992.3-.382.6-.84.75-1.221.15-.458.3=
+-.763.3-1.068 0-.382-.15-.535-.525-.535s-.75.153-1.125.458c-.375.306-.675.6=
+87-.975 1.145-.3.458-.525.916-.675 1.45-.15.534-.3.763-.3 1.145z'/%3E %3Cpa=
+th d=3D'M182.025 18.163c0 .305.075.534.225.763.15.23.375.306.675.306.375 0 =
+.75-.153 1.05-.382.375-.229.675-.534.975-.84.3-.305.6-.763.9-1.22 0-.077.07=
+5-.153.15-.23l.15-.152c.075-.076.15-.076.225-.076.15 0 .3.076.375.152.15.07=
+7.15.23.15.382 0 .076 0 .152-.075.229 0 .076-.075.152-.075.229 0 .076-.075.=
+152-.075.229-.375.686-.825 1.22-1.35 1.755-.45.458-.9.84-1.5 1.145-.6.381-1=
+.2.534-1.875.534-1.05 0-1.875-.305-2.55-.84-.675-.534-.975-1.297-.975-2.213=
+ 0-.534.075-1.068.225-1.831.15-.687.375-1.45.6-2.137l.675-2.06c.225-.688.45=
+-1.145.6-1.527.075-.153.15-.305.3-.382.15-.076.3-.152.45-.152.225 0 .45.076=
+.675.229.225.152.525.305.675.458.225.152.375.305.525.534.15.152.225.305.225=
+.458 0 .458-.075.915-.225 1.373-.15.458-.375.992-.525 1.603-.225.534-.375 1=
+.145-.525 1.755 0 .61-.075 1.221-.075 1.908zM186 4.808c0 .381-.075.763-.15 =
+1.068-.075.306-.3.687-.525.916-.225.23-.45.458-.675.61-.3.153-.525.23-.825.=
+23-.375 0-.75-.153-1.05-.382-.3-.305-.45-.687-.45-1.145 0-.381.075-.687.225=
+-.992.15-.305.3-.61.525-.916.225-.305.45-.458.75-.61.3-.153.6-.23.9-.23.375=
+ 0 .75.154.975.382a2 2 0 0 1 .3 1.069z'/%3E %3Cpath d=3D'M175.8 18.163c0 .3=
+05.075.534.225.763.15.23.375.306.675.306.375 0 .75-.153 1.05-.382.375-.229.=
+675-.534.975-.84.3-.305.6-.763.9-1.22 0-.077.075-.153.15-.23l.15-.152c.075-=
+.076.15-.076.225-.076.15 0 .3.076.375.152.15.077.15.23.15.382 0 .076 0 .152=
+-.075.229 0 .076-.075.152-.075.229 0 .076-.075.152-.075.229-.375.686-.825 1=
+.22-1.35 1.755-.45.458-.9.84-1.5 1.145-.6.381-1.2.534-1.875.534-1.05 0-1.87=
+5-.305-2.55-.84-.675-.534-.975-1.22-.975-1.984 0-.61.075-1.145.225-1.679.15=
+-.534.3-1.068.45-1.526.15-.534.3-.992.45-1.45a4.3 4.3 0 0 0 .225-1.297c0-.1=
+53-.075-.23-.15-.306a.568.568 0 0 0-.375-.152c-.45 0-.9.229-1.35.61a5.61 5.=
+61 0 0 0-1.35 1.755 16.07 16.07 0 0 0-1.05 2.748c-.3 1.068-.45 2.29-.45 3.5=
+87 0 .229-.075.381-.15.458-.075.076-.225.076-.45.076-.75 0-1.35-.153-1.8-.4=
+58-.525-.305-.75-.687-.75-1.068 0-.764.075-1.603.225-2.443.15-.84.375-1.679=
+.6-2.518.225-.84.45-1.526.75-2.213s.45-1.221.6-1.603c.15-.381.375-.534.75-.=
+534.225 0 .45.076.825.229.3.153.675.61 1.125 1.221.375-.305.825-.61 1.275-.=
+916a5.58 5.58 0 0 1 1.35-.61c.525-.153 1.05-.306 1.65-.306.3 0 .6.077.825.2=
+3.3.152.525.305.75.534.225.229.375.457.525.763.15.305.225.534.225.84 0 .457=
+-.075.839-.225 1.373-.15.458-.3.992-.525 1.45-.15.534-.3.992-.525 1.526 0 .=
+687-.075 1.145-.075 1.68z'/%3E %3Cpath d=3D'M167.85 17.629c-.375.687-.9 1.2=
+21-1.5 1.755a6.536 6.536 0 0 1-1.875 1.145c-.75.382-1.65.534-2.7.534-.675 0=
+-1.35-.076-1.95-.305-.6-.23-1.05-.458-1.5-.84-.45-.381-.75-.763-.975-1.297-=
+.225-.534-.375-1.068-.375-1.679 0-1.068.225-1.984.6-2.9.375-.84.9-1.603 1.4=
+25-2.213.6-.61 1.2-1.068 1.875-1.45a3.963 3.963 0 0 1 1.95-.534c.45 0 .825.=
+076 1.2.229.375.152.675.381.975.687.3.305.525.61.675.915.15.382.225.687.225=
+ 1.069 0 .305-.075.763-.225 1.22a4.16 4.16 0 0 1-.75 1.374c-.3.458-.825.764=
+-1.35 1.069-.6.305-1.275.458-2.175.458-.225 0-.375 0-.6-.077-.15 0-.3-.076-=
+.375-.076 0 .84.225 1.45.675 1.908.45.458 1.05.687 1.725.687s1.2-.153 1.725=
+-.382c.525-.305.975-.534 1.35-.84.45-.38.825-.762 1.125-1.297 0-.076.075-.1=
+52.15-.228l.15-.153c.075-.076.15-.076.225-.076.15 0 .3.076.375.152.075.077.=
+15.23.15.382 0 .076 0 .152-.075.229 0 .076-.075.152-.075.229 0 .152-.075.22=
+9-.075.305zm-7.35-1.984c.525 0 .975-.153 1.425-.382.45-.305.825-.61 1.125-.=
+992.3-.382.6-.84.75-1.221.15-.458.3-.763.3-1.068 0-.382-.15-.535-.525-.535s=
+-.75.153-1.125.458c-.375.306-.675.687-.975 1.145-.3.458-.525.916-.675 1.45-=
+.225.382-.3.763-.3 1.145z'/%3E %3Cpath d=3D'M155.475 14.118c-.225 1.985-.52=
+5 3.816-.9 5.419.825-.305 1.5-.763 2.025-1.145.525-.458.975-.992 1.275-1.52=
+6 0-.077.075-.153.15-.23l.15-.152c.075-.076.15-.076.225-.076.15 0 .3.076.37=
+5.153.075.076.15.228.15.381 0 .076 0 .23-.075.382l-.075.229c-.45.686-1.05 1=
+.373-1.8 1.908-.75.61-1.725 1.144-3 1.602-.375 1.145-.825 2.213-1.35 3.13-.=
+525.915-1.05 1.754-1.725 2.365-.6.687-1.275 1.145-1.95 1.526-.675.382-1.425=
+.534-2.175.534-.675 0-1.35-.076-1.95-.305-.6-.229-1.05-.534-1.5-.84-.45-.38=
+-.75-.762-.975-1.22-.225-.458-.375-.916-.375-1.298 0-.687.225-1.297.675-1.8=
+31.45-.535 1.05-.916 1.875-1.298.75-.305 1.65-.61 2.7-.84.975-.228 2.025-.3=
+8 3.075-.533l1.125-.153c.225-.61.45-1.297.675-1.908.15-.61.3-1.297.375-1.90=
+8-.45.458-.975.84-1.5 1.145-.45.305-.975.534-1.575.763-.6.23-1.125.382-1.72=
+5.382-.675 0-1.35-.077-1.95-.306-.6-.229-1.125-.534-1.5-.992-.45-.381-.75-.=
+915-.975-1.526-.225-.61-.375-1.221-.375-1.984 0-.916.15-1.832.375-2.748-.67=
+5-.152-1.35-.305-1.95-.61-.6-.23-1.05-.534-1.5-.84-.45-.305-.75-.763-.975-1=
+.144-.225-.458-.375-.916-.375-1.45 0-.763.225-1.527.675-2.137.45-.687.975-1=
+.221 1.575-1.755.6-.458 1.2-.84 1.8-1.145a3.302 3.302 0 0 1 1.5-.382c.3 0 .=
+45.077.45.306 0 .152-.075.228-.15.305-.075.076-.225.229-.375.305-.15.153-.3=
+75.305-.675.534-.225.23-.45.458-.675.763-.225.306-.375.687-.525 1.069-.15.3=
+81-.225.916-.225 1.526s.15 1.145.525 1.68c.375.533.9.915 1.575 1.22.525-1.2=
+2 1.275-2.366 2.1-3.434.9-1.068 1.8-1.984 2.85-2.824.975-.84 2.025-1.45 3.0=
+75-1.908C153 .84 153.975.611 154.8.611c.525 0 1.05.076 1.5.305.45.229.9.458=
+ 1.2.763.3.305.6.687.75 1.068.15.382.3.764.3 1.145 0 .84-.3 1.68-.9 2.519-.=
+6.839-1.35 1.678-2.4 2.365-1.05.687-2.25 1.374-3.6 1.832-1.35.458-2.925.763=
+-4.575.84.075.839-.075 1.602-.075 2.289 0 .916.225 1.602.6 2.06.375.458.975=
+.687 1.65.687.45 0 .975-.152 1.425-.381.45-.306.9-.535 1.275-.916.45-.382.9=
+-.84 1.275-1.298.225-.686.45-1.297.75-1.831.225-.458.525-.916.9-1.297.375-.=
+382.75-.611 1.2-.611.3 0 .525.076.75.229.225.153.3.458.3.84 0 .381-.075.686=
+-.3 1.068-.225.381-.375.61-.6.916-.15.305-.45.61-.75.915zm-.225-11.6c-.6 0-=
+1.275.23-1.95.61-.675.383-1.425.993-2.1 1.68a16.18 16.18 0 0 0-1.95 2.442c-=
+.6.916-1.125 1.832-1.5 2.9 1.05-.076 2.1-.382 3.15-.84 1.05-.457 1.95-.992 =
+2.7-1.602a12.06 12.06 0 0 0 1.95-1.984c.525-.687.75-1.374.75-1.985 0-.305-.=
+075-.61-.3-.763-.225-.152-.375-.458-.75-.458zm-9.225 24.421c.3 0 .675-.152 =
+1.05-.381.375-.23.825-.61 1.2-.992.375-.458.825-.916 1.2-1.527l1.125-1.831-=
+.45.153c-.675.152-1.35.381-2.025.61-.675.229-1.2.534-1.65.763-.45.23-.825.6=
+87-1.125.992-.3.306-.45.687-.45.992.075.84.45 1.221 1.125 1.221zM195.6 3.28=
+2h-1.35v-.687h3.6v.687h-1.35v3.892h-.825V3.282h-.075zm3.075-.764h1.275l1.2 =
+3.282 1.125-3.282h1.275v4.58h-.825V3.433l-1.35 3.663h-.525l-1.35-3.663v3.66=
+3h-.75V2.518h-.075z'/%3E %3C/g%3E %3Cg fill=3D'%234c18f3'%3E %3Cpath d=3D'M=
+22.875 23.734c-1.05-.076-1.8-.305-2.625-.916-.675-.61-1.2-1.526-1.65-2.747-=
+.9-2.595-1.875-5.8-2.325-7.479 6-2.137 8.85-4.884 8.85-8.013 0-2.824-2.25-4=
+.732-7.35-4.045-2.25.305-3.9.61-5.625.916C5.7 2.747 3.3 5.647 3.3 8.547c0 1=
+.985 1.725 3.358 3.675 3.358 1.35 0 1.5-.763 1.05-1.068-.825-.61-1.35-1.298=
+-1.35-2.366 0-1.755 1.275-3.892 5.925-4.96.3-.077.525-.153.825-.153-.75 2.2=
+13-2.175 6.181-3.375 9.54-7.125 2.9-9.375 6.868-9.375 9.615 0 2.06 1.575 3.=
+282 3.525 3.282 2.85 0 5.175-1.984 6.975-6.41a101.754 101.754 0 0 0 2.1-5.4=
+2c.45 1.756 1.275 4.732 2.175 7.174.525 1.374.975 2.443 1.725 3.13.825.839 =
+2.025 1.297 3.375 1.297 1.65 0 2.625-.534 2.85-.992.225-.458.075-.763-.525-=
+.84zm-15-5.342c-1.575 3.282-2.55 4.655-3.75 4.884-.525.077-.975-.152-.975-.=
+992 0-.916.975-4.273 6.075-7.02-.6 1.373-1.05 2.441-1.35 3.128zm6.3-7.097c1=
+.275-3.434 2.4-6.716 3-8.7 2.7-.306 4.05.534 4.05 2.594 0 1.985-1.65 3.969-=
+5.25 5.343-.6.305-1.2.534-1.8.763zm76.275 7.173c-.525 0-1.35.916-2.775.916-=
+.975 0-1.5-.61-1.5-1.984 0-.305.075-.687.15-1.068h.375c4.65 0 7.425-2.748 7=
+.425-5.343 0-1.907-1.425-2.9-2.85-2.9-3.45 0-7.65 4.198-8.325 8.472-.975 1.=
+755-1.8 2.365-2.325 2.365-.6 0-.525-.84 0-2.365.825-2.29 1.95-5.495 2.925-7=
+.861C85.575 3.892 86.775 1.221 87 .687c.15-.534-.15-.61-.675-.534-2.025.305=
+-3.15.229-3.975 1.679-1.35 2.29-7.125 11.447-7.125 11.447S76.95 1.908 77.17=
+5.763c.15-.61-.225-.84-.75-.687-.675.23-1.2.306-2.1.61-.75.23-.9.535-1.425 =
+1.756-.3.61-2.475 7.326-4.05 10.684-1.65 3.587-3 5.648-6.075 5.953-.825.076=
+-.9.534-.675 1.068.45 1.145 1.725 1.832 2.775 1.832 1.95 0 3.3-1.374 4.65-4=
+.655 1.125-2.671 2.7-7.327 3.9-10.837-.975 5.418-2.175 12.668-2.4 14.576-.0=
+75 1.145 1.35 1.145 1.95.076 1.575-2.9 4.95-8.7 7.95-14.042-1.2 2.977-2.7 6=
+.564-3.375 8.548-.45 1.45-.9 2.518-.9 3.892 0 1.526 1.05 2.518 2.25 2.518s2=
+.55-.61 4.05-2.518c.45 1.602 1.575 2.518 3.525 2.518 2.55 0 4.425-1.755 4.4=
+25-2.9 0-.458-.15-.687-.45-.687zm-.075-8.013c1.425 0 .3 3.816-3.45 3.969.97=
+5-2.06 2.475-3.969 3.45-3.969z'/%3E %3Cpath d=3D'M111.9 4.121c1.35-.992 2.4=
+-1.068 2.7-1.297.45-.382-.15-2.442-2.025-2.442-3 0-4.575 3.815-5.775 7.173a=
+251.41 251.41 0 0 0-2.325 6.945c.3-4.732.9-12.21.9-13.05 0-.458 0-.687-.225=
+-.763-.075-.076-.3-.076-.375-.076h-6.3c-7.65 0-7.05 7.25-2.325 7.25.9 0 .9-=
+.84.45-1.069-1.725-.84-2.1-4.045 3.675-4.045h1.575c-.75 2.519-2.025 6.716-3=
+.75 10.38-1.8 3.968-2.85 5.418-5.7 6.18-.825.23-.75.688-.525 1.222.3.61 1.2=
+75 1.374 2.55 1.374 2.25 0 3.45-1.68 4.65-5.037 1.2-3.282 2.175-6.41 2.925-=
+8.853v.076c-.225 5.266-.375 11.982-.45 13.203 0 .916.3.916 1.05.61 1.425-.6=
+1 1.95-.839 2.325-2.06 1.2-3.74 2.4-6.945 3.75-10.455.75-2.366 2.1-4.426 3.=
+225-5.266z'/%3E %3Cpath d=3D'M116.025 8.395c-6 0-9 7.097-9 10.15 0 2.213 1.=
+35 3.51 3.675 3.51 5.025 0 7.95-7.02 7.95-10.226 0-2.137-.975-3.434-2.625-3=
+.434zm-4.35 10.837c-2.25 0 .75-8.548 2.775-8.548 1.875 0-.375 8.548-2.775 8=
+.548z'/%3E %3Cpath d=3D'M131.925 4.655c-.525 0-2.25.077-4.95.153.45-1.069.7=
+5-1.908 1.05-2.519.15-.457.075-.686-.375-.686-.375 0-1.125.152-1.95.381-1.2=
+.305-1.275.458-1.95 1.832-.15.305-.3.687-.45 1.145-2.625.076-5.625.228-9 .3=
+81-1.35.076-3.15 1.755-1.575 1.755 3.15 0 6.6.153 9.675.23-.45 1.297-1.05 2=
+.9-1.8 4.807-.9 2.366-2.175 5.19-2.175 7.174 0 1.45.975 2.67 2.7 2.67 2.175=
+ 0 3-1.296 2.775-1.983-.15-.458-.525-.382-1.35-.382-.6 0-.75-.381-.75-.84 0=
+-.686.3-1.373.675-2.289A375.35 375.35 0 0 1 126 7.48h2.475c1.875 0 2.55-.07=
+6 3.225-.534.525-.458.825-.687 1.125-1.069.225-.458.375-1.22-.9-1.22zM55.65=
+ 7.784c.975 0 2.025-.916 2.25-2.06.225-1.145-.375-2.06-1.35-2.06-.975 0-2.0=
+25.915-2.25 2.06-.225 1.144.375 2.06 1.35 2.06z'/%3E %3Cpath d=3D'M59.925 1=
+9.613c-.45-.076-.6-.381-.6-.992 0-.687.225-1.603.525-2.671C67.65 12.21 72.8=
+25.687 66.975.687c-3.9 0-8.775 8.776-10.275 14.729-.9 1.45-2.325 3.587-3.37=
+5 3.587-.825 0-.6-1.069 0-2.671 1.35-3.74 3.3-7.556 3.3-7.556s-.975-.458-2.=
+325-.229c-.9.153-1.275.61-1.65 1.374-.075.076-.075.153-.15.305-2.55 5.571-4=
+.125 8.7-5.625 8.7-1.05 0-.45-1.144.15-2.747 1.35-3.74 3.3-7.555 3.3-7.555s=
+-.975-.458-2.325-.23c-.825.153-1.2.535-1.65 1.298-.3-.763-.825-1.526-2.1-1.=
+526-3.75 0-6.6 4.96-7.425 8.395-.75 1.22-1.8 2.518-2.55 2.518-.75 0-.75-.68=
+7-.15-2.29.975-2.518 2.85-6.944 4.275-10.378 3.675.076 7.2.152 9.225.152 1.=
+875 0 2.55-.076 3.225-.534.525-.458.825-.687 1.125-1.068.3-.382.45-1.145-.8=
+25-1.145-.675 0-5.775.152-11.85.381.45-1.068.825-1.908 1.05-2.365.15-.077-.=
+075-.382-.525-.306-.675.077-.975.153-1.725.382-1.125.305-1.425.61-2.025 1.9=
+84l-.375.763c-2.4.077-4.875.23-7.125.306-1.35.076-2.775 1.526-1.2 1.526 1.9=
+5 0 4.725.076 7.5.076a53.133 53.133 0 0 0-1.5 3.663c-.075.077-.075.23-.15.3=
+82-1.95 4.426-4.875 9.158-8.1 9.158-1.275 0-1.8-.84-1.8-1.908 0-.382.075-.8=
+4.15-1.297h.45c4.65 0 7.35-2.9 7.35-5.572 0-1.678-1.425-2.747-2.775-2.747-3=
+.825 0-8.475 5.037-8.475 9.692 0 2.519 1.35 4.198 3.6 4.198 3 0 5.4-1.908 7=
+.05-3.969-.075.458-.15.916-.15 1.374 0 1.45.825 2.518 2.175 2.518 1.5 0 2.8=
+5-.916 4.05-2.594.225 1.602 1.2 2.594 2.55 2.594 1.575 0 3-1.22 4.05-2.747.=
+075 1.374.525 2.747 2.25 2.747 1.275 0 2.55-.687 4.05-2.823.075 1.373.6 2.9=
+ 2.25 2.9 1.575 0 3-1.145 4.275-2.9.15 1.755 1.05 2.823 2.4 2.823 1.35 0 2.=
+55-.916 2.475-1.908-.075-.84-.675-.458-1.125-.534zM66.6 3.205c.825 0-1.5 6.=
+182-5.7 9.616 1.8-4.503 4.725-9.616 5.7-9.616zm-39.15 7.098c1.425 0 .6 4.12=
+-3.3 4.12h-.075c.9-2.136 2.4-4.12 3.375-4.12zm13.05 8.929c-2.175 0 1.5-8.47=
+1 3.6-8.471.825 0 1.05.534 1.2.992-1.725 4.044-3.075 7.479-4.8 7.479z'/%3E =
+%3C/g%3E %3C/g%3E %3C/svg%3E") center 24px no-repeat; margin: -42px 0px 42p=
+x; height: 74px; position: relative; width: calc(100% + 84px); }
+
+#rmnGenieWrappingDiv .survey header .bbb-close-button[data-v-1ddd1fce], #rm=
+nGenieWrappingDiv .survey-thanks header .bbb-close-button[data-v-1ddd1fce] =
+{ right: 26px; top: 50%; transform: translateY(-50%); }
+
+#rmnGenieWrappingDiv .survey h1[data-v-1ddd1fce], #rmnGenieWrappingDiv .sur=
+vey-thanks h1[data-v-1ddd1fce] { font-size: 24px; }
+
+#rmnGenieWrappingDiv .survey .secondary-text[data-v-1ddd1fce], #rmnGenieWra=
+ppingDiv .survey-thanks .secondary-text[data-v-1ddd1fce] { margin: 1em 0px =
+1.5em; max-width: 400px; }
+
+#rmnGenieWrappingDiv .survey.bbb-container-light[data-v-1ddd1fce] { width: =
+595px; }
+
+#rmnGenieWrappingDiv .survey-thanks.bbb-container-light[data-v-1ddd1fce] { =
+min-height: unset; }
+
+#rmnGenieWrappingDiv { }
+
+#rmnGenieWrappingDiv, #rmnGenieWrappingDiv h1, #rmnGenieWrappingDiv h2, #rm=
+nGenieWrappingDiv h3, #rmnGenieWrappingDiv h4, #rmnGenieWrappingDiv h5, #rm=
+nGenieWrappingDiv h6, #rmnGenieWrappingDiv p, #rmnGenieWrappingDiv td, #rmn=
+GenieWrappingDiv dl, #rmnGenieWrappingDiv tr, #rmnGenieWrappingDiv dt, #rmn=
+GenieWrappingDiv ol, #rmnGenieWrappingDiv form, #rmnGenieWrappingDiv select=
+, #rmnGenieWrappingDiv option, #rmnGenieWrappingDiv pre, #rmnGenieWrappingD=
+iv div, #rmnGenieWrappingDiv table, #rmnGenieWrappingDiv th, #rmnGenieWrapp=
+ingDiv tbody, #rmnGenieWrappingDiv tfoot, #rmnGenieWrappingDiv caption, #rm=
+nGenieWrappingDiv thead, #rmnGenieWrappingDiv ul, #rmnGenieWrappingDiv li, =
+#rmnGenieWrappingDiv address, #rmnGenieWrappingDiv blockquote, #rmnGenieWra=
+ppingDiv dd, #rmnGenieWrappingDiv fieldset, #rmnGenieWrappingDiv li, #rmnGe=
+nieWrappingDiv iframe, #rmnGenieWrappingDiv strong, #rmnGenieWrappingDiv le=
+gend, #rmnGenieWrappingDiv em, #rmnGenieWrappingDiv summary, #rmnGenieWrapp=
+ingDiv cite, #rmnGenieWrappingDiv span, #rmnGenieWrappingDiv input, #rmnGen=
+ieWrappingDiv sup, #rmnGenieWrappingDiv label, #rmnGenieWrappingDiv dfn, #r=
+mnGenieWrappingDiv object, #rmnGenieWrappingDiv big, #rmnGenieWrappingDiv q=
+, #rmnGenieWrappingDiv samp, #rmnGenieWrappingDiv acronym, #rmnGenieWrappin=
+gDiv small, #rmnGenieWrappingDiv img, #rmnGenieWrappingDiv strike, #rmnGeni=
+eWrappingDiv code, #rmnGenieWrappingDiv sub, #rmnGenieWrappingDiv ins, #rmn=
+GenieWrappingDiv textarea, #rmnGenieWrappingDiv button, #rmnGenieWrappingDi=
+v var, #rmnGenieWrappingDiv a, #rmnGenieWrappingDiv abbr, #rmnGenieWrapping=
+Div applet, #rmnGenieWrappingDiv del, #rmnGenieWrappingDiv kbd, #rmnGenieWr=
+appingDiv tt, #rmnGenieWrappingDiv b, #rmnGenieWrappingDiv i, #rmnGenieWrap=
+pingDiv hr, #rmnGenieWrappingDiv article, #rmnGenieWrappingDiv aside, #rmnG=
+enieWrappingDiv figure, #rmnGenieWrappingDiv figcaption, #rmnGenieWrappingD=
+iv footer, #rmnGenieWrappingDiv header, #rmnGenieWrappingDiv menu, #rmnGeni=
+eWrappingDiv nav, #rmnGenieWrappingDiv section, #rmnGenieWrappingDiv time, =
+#rmnGenieWrappingDiv mark, #rmnGenieWrappingDiv audio, #rmnGenieWrappingDiv=
+ video, #rmnGenieWrappingDiv abbr, #rmnGenieWrappingDiv address, #rmnGenieW=
+rappingDiv area, #rmnGenieWrappingDiv blockquote, #rmnGenieWrappingDiv canv=
+as, #rmnGenieWrappingDiv caption, #rmnGenieWrappingDiv cite, #rmnGenieWrapp=
+ingDiv code, #rmnGenieWrappingDiv colgroup, #rmnGenieWrappingDiv col, #rmnG=
+enieWrappingDiv datalist, #rmnGenieWrappingDiv fieldset, #rmnGenieWrappingD=
+iv main, #rmnGenieWrappingDiv map, #rmnGenieWrappingDiv meta, #rmnGenieWrap=
+pingDiv optgroup, #rmnGenieWrappingDiv output, #rmnGenieWrappingDiv progres=
+s, #rmnGenieWrappingDiv svg { background-attachment: scroll; background-col=
+or: transparent; background-position: 0px 0px; background-repeat: repeat; b=
+order: medium none currentcolor; bottom: auto; clear: none; clip: auto; col=
+or: inherit; counter-increment: none; counter-reset: none; cursor: auto; di=
+rection: inherit; display: inline; float: none; font-family: inherit; font-=
+size: inherit; font-style: inherit; font-variant: normal; font-weight: inhe=
+rit; height: auto; left: auto; letter-spacing: normal; line-height: inherit=
+; list-style-type: inherit; list-style-position: outside; list-style-image:=
+ none; margin: 0px; max-height: none; max-width: none; min-height: 0px; min=
+-width: 0px; opacity: 1; padding: 0px; position: static; quotes: "" ""; rig=
+ht: auto; table-layout: auto; text-align: inherit; text-decoration: inherit=
+; text-indent: 0px; text-transform: none; top: auto; unicode-bidi: normal; =
+vertical-align: baseline; visibility: inherit; white-space: normal; width: =
+auto; word-spacing: normal; z-index: auto; background-origin: padding-box; =
+background-clip: border-box; background-size: auto; -webkit-border-image: n=
+one; border-radius: 0px; box-shadow: none; box-sizing: border-box; columns:=
+ auto auto; column-gap: normal; column-rule: medium none black; font-featur=
+e-settings: normal; overflow: visible; hyphens: manual; perspective: none; =
+perspective-origin: 50% 50%; backface-visibility: visible; text-shadow: non=
+e; transition: all 0s ease 0s; transform: none; transform-origin: 50% 50%; =
+transform-style: flat; word-break: normal; }
+
+#rmnGenieWrappingDiv svg { cursor: inherit; }
+
+#rmnGenieWrappingDiv, #rmnGenieWrappingDiv h3, #rmnGenieWrappingDiv h5, #rm=
+nGenieWrappingDiv p, #rmnGenieWrappingDiv h1, #rmnGenieWrappingDiv dl, #rmn=
+GenieWrappingDiv dt, #rmnGenieWrappingDiv h6, #rmnGenieWrappingDiv ol, #rmn=
+GenieWrappingDiv form, #rmnGenieWrappingDiv option, #rmnGenieWrappingDiv pr=
+e, #rmnGenieWrappingDiv div, #rmnGenieWrappingDiv h2, #rmnGenieWrappingDiv =
+caption, #rmnGenieWrappingDiv h4, #rmnGenieWrappingDiv ul, #rmnGenieWrappin=
+gDiv address, #rmnGenieWrappingDiv blockquote, #rmnGenieWrappingDiv dd, #rm=
+nGenieWrappingDiv fieldset, #rmnGenieWrappingDiv hr, #rmnGenieWrappingDiv a=
+rticle, #rmnGenieWrappingDiv dialog, #rmnGenieWrappingDiv figure, #rmnGenie=
+WrappingDiv footer, #rmnGenieWrappingDiv header, #rmnGenieWrappingDiv hgrou=
+p, #rmnGenieWrappingDiv menu, #rmnGenieWrappingDiv nav, #rmnGenieWrappingDi=
+v section, #rmnGenieWrappingDiv audio, #rmnGenieWrappingDiv video, #rmnGeni=
+eWrappingDiv address, #rmnGenieWrappingDiv blockquote, #rmnGenieWrappingDiv=
+ colgroup, #rmnGenieWrappingDiv main, #rmnGenieWrappingDiv progress, #rmnGe=
+nieWrappingDiv summary { display: block; }
+
+#rmnGenieWrappingDiv h1, #rmnGenieWrappingDiv h2, #rmnGenieWrappingDiv h3, =
+#rmnGenieWrappingDiv h4, #rmnGenieWrappingDiv h5, #rmnGenieWrappingDiv h6 {=
+ font-weight: bold; }
+
+#rmnGenieWrappingDiv p { margin: 1em 0px; }
+
+#rmnGenieWrappingDiv table { display: table; }
+
+#rmnGenieWrappingDiv thead { display: table-header-group; }
+
+#rmnGenieWrappingDiv tbody { display: table-row-group; }
+
+#rmnGenieWrappingDiv tfoot { display: table-footer-group; }
+
+#rmnGenieWrappingDiv tr { display: table-row; }
+
+#rmnGenieWrappingDiv th, #rmnGenieWrappingDiv td { display: table-cell; pad=
+ding: 2px; }
+
+#rmnGenieWrappingDiv ol, #rmnGenieWrappingDiv ul { margin: 1em 0px; }
+
+#rmnGenieWrappingDiv ul li, #rmnGenieWrappingDiv ul ul li, #rmnGenieWrappin=
+gDiv ul ul ul li, #rmnGenieWrappingDiv ol li, #rmnGenieWrappingDiv ol ol li=
+, #rmnGenieWrappingDiv ol ol ol li, #rmnGenieWrappingDiv ul ol ol li, #rmnG=
+enieWrappingDiv ul ul ol li, #rmnGenieWrappingDiv ol ul ul li, #rmnGenieWra=
+ppingDiv ol ol ul li { list-style-position: inside; margin-top: 0.08em; }
+
+#rmnGenieWrappingDiv ol ol, #rmnGenieWrappingDiv ol ol ol, #rmnGenieWrappin=
+gDiv ul ul, #rmnGenieWrappingDiv ul ul ul, #rmnGenieWrappingDiv ol ul, #rmn=
+GenieWrappingDiv ol ul ul, #rmnGenieWrappingDiv ol ol ul, #rmnGenieWrapping=
+Div ul ol, #rmnGenieWrappingDiv ul ol ol, #rmnGenieWrappingDiv ul ul ol { p=
+adding-left: 40px; margin: 0px; }
+
+#rmnGenieWrappingDiv nav ul, #rmnGenieWrappingDiv nav ol { list-style-type:=
+ none; }
+
+#rmnGenieWrappingDiv ul, #rmnGenieWrappingDiv menu { list-style-type: disc;=
+ }
+
+#rmnGenieWrappingDiv ol { list-style-type: decimal; }
+
+#rmnGenieWrappingDiv ol ul, #rmnGenieWrappingDiv ul ul, #rmnGenieWrappingDi=
+v menu ul, #rmnGenieWrappingDiv ol menu, #rmnGenieWrappingDiv ul menu, #rmn=
+GenieWrappingDiv menu menu { list-style-type: circle; }
+
+#rmnGenieWrappingDiv ol ol ul, #rmnGenieWrappingDiv ol ul ul, #rmnGenieWrap=
+pingDiv ol menu ul, #rmnGenieWrappingDiv ol ol menu, #rmnGenieWrappingDiv o=
+l ul menu, #rmnGenieWrappingDiv ol menu menu, #rmnGenieWrappingDiv ul ol ul=
+, #rmnGenieWrappingDiv ul ul ul, #rmnGenieWrappingDiv ul menu ul, #rmnGenie=
+WrappingDiv ul ol menu, #rmnGenieWrappingDiv ul ul menu, #rmnGenieWrappingD=
+iv ul menu menu, #rmnGenieWrappingDiv menu ol ul, #rmnGenieWrappingDiv menu=
+ ul ul, #rmnGenieWrappingDiv menu menu ul, #rmnGenieWrappingDiv menu ol men=
+u, #rmnGenieWrappingDiv menu ul menu, #rmnGenieWrappingDiv menu menu menu {=
+ list-style-type: square; }
+
+#rmnGenieWrappingDiv li { display: list-item; padding-left: 20px; }
+
+#rmnGenieWrappingDiv strong { font-weight: bold; }
+
+#rmnGenieWrappingDiv em { font-style: italic; }
+
+#rmnGenieWrappingDiv kbd, #rmnGenieWrappingDiv samp, #rmnGenieWrappingDiv c=
+ode, #rmnGenieWrappingDiv pre { font-family: monospace; }
+
+#rmnGenieWrappingDiv a, #rmnGenieWrappingDiv a *, #rmnGenieWrappingDiv inpu=
+t[type=3D"submit"], #rmnGenieWrappingDiv input[type=3D"button"], #rmnGenieW=
+rappingDiv input[type=3D"radio"], #rmnGenieWrappingDiv input[type=3D"checkb=
+ox"], #rmnGenieWrappingDiv select, #rmnGenieWrappingDiv button { cursor: po=
+inter; }
+
+#rmnGenieWrappingDiv button, #rmnGenieWrappingDiv input[type=3D"submit"] { =
+text-align: center; padding: 2px 6px 3px; border-radius: 4px; text-decorati=
+on: none; font-family: "Avenir Next", Calibri, Helvetica, Roboto, sans-seri=
+f; font-size: small; background: none; -webkit-appearance: push-button; col=
+or: buttontext; border: 1px solid rgb(166, 166, 166); outline: initial; }
+
+#rmnGenieWrappingDiv input[type=3D"hidden"] { display: none; }
+
+#rmnGenieWrappingDiv textarea { -webkit-appearance: textarea; background: w=
+hite; padding: 2px; margin-left: 4px; overflow-wrap: break-word; white-spac=
+e: pre-wrap; font-size: 11px; font-family: "Avenir Next", Calibri, Helvetic=
+a, Roboto, sans-serif; line-height: 13px; resize: both; }
+
+#rmnGenieWrappingDiv select, #rmnGenieWrappingDiv textarea, #rmnGenieWrappi=
+ngDiv input { border: 1px solid rgb(204, 204, 204); }
+
+#rmnGenieWrappingDiv select { font-size: 11px; font-family: "Avenir Next", =
+Calibri, Helvetica, Roboto, sans-serif; display: inline-block; }
+
+#rmnGenieWrappingDiv textarea:focus, #rmnGenieWrappingDiv input:focus { out=
+line: initial; }
+
+#rmnGenieWrappingDiv input[type=3D"text"] { background: white; padding: 1px=
+; font-family: "Avenir Next", Calibri, Helvetica, Roboto, sans-serif; font-=
+size: small; }
+
+#rmnGenieWrappingDiv input[type=3D"checkbox"], #rmnGenieWrappingDiv input[t=
+ype=3D"radio"] { border: 1px solid rgb(43, 43, 43); border-radius: 4px; }
+
+#rmnGenieWrappingDiv input[type=3D"checkbox"], #rmnGenieWrappingDiv input[t=
+ype=3D"radio"] { outline: initial; }
+
+#rmnGenieWrappingDiv input[type=3D"radio"] { margin: 2px 2px 3px; }
+
+#rmnGenieWrappingDiv abbr[title], #rmnGenieWrappingDiv acronym[title], #rmn=
+GenieWrappingDiv dfn[title] { cursor: help; border-bottom-width: 1px; borde=
+r-bottom-style: dotted; }
+
+#rmnGenieWrappingDiv ins { background-color: rgb(255, 255, 153); color: bla=
+ck; }
+
+#rmnGenieWrappingDiv del { text-decoration: line-through; }
+
+#rmnGenieWrappingDiv blockquote, #rmnGenieWrappingDiv q { quotes: none; }
+
+#rmnGenieWrappingDiv blockquote::before, #rmnGenieWrappingDiv blockquote::a=
+fter, #rmnGenieWrappingDiv q::before, #rmnGenieWrappingDiv q::after, #rmnGe=
+nieWrappingDiv li::before, #rmnGenieWrappingDiv li::after { content: ""; }
+
+#rmnGenieWrappingDiv input, #rmnGenieWrappingDiv select { vertical-align: m=
+iddle; }
+
+#rmnGenieWrappingDiv table { border-collapse: collapse; border-spacing: 0px=
+; }
+
+#rmnGenieWrappingDiv hr { display: block; height: 1px; border-width: 1px 0p=
+x 0px; border-right-style: initial; border-bottom-style: initial; border-le=
+ft-style: initial; border-right-color: initial; border-bottom-color: initia=
+l; border-left-color: initial; border-image: initial; border-top-style: sol=
+id; border-top-color: rgb(204, 204, 204); margin: 1em 0px; }
+
+#rmnGenieWrappingDiv [dir=3D"rtl"] { direction: rtl; }
+
+#rmnGenieWrappingDiv mark { background-color: rgb(255, 255, 153); color: bl=
+ack; font-style: italic; font-weight: bold; }
+
+#rmnGenieWrappingDiv menu { padding-left: 40px; padding-top: 8px; }
+
+#rmnGenieWrappingDiv [hidden], #rmnGenieWrappingDiv template { display: non=
+e; }
+
+#rmnGenieWrappingDiv abbr[title] { border-bottom: 1px dotted; }
+
+#rmnGenieWrappingDiv sub, #rmnGenieWrappingDiv sup { font-size: 75%; line-h=
+eight: 0; position: relative; vertical-align: baseline; }
+
+#rmnGenieWrappingDiv sup { top: -0.5em; }
+
+#rmnGenieWrappingDiv sub { bottom: -0.25em; }
+
+#rmnGenieWrappingDiv img { border: 0px; }
+
+#rmnGenieWrappingDiv figure { margin: 0px; }
+
+#rmnGenieWrappingDiv textarea { overflow: auto; vertical-align: top; }
+
+#rmnGenieWrappingDiv { box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px; positi=
+on: fixed; top: 25px; right: 25px; z-index: 2147483647; font-size: 14px; li=
+ne-height: 1; direction: ltr; text-align: start; font-family: "Avenir Next"=
+, Calibri, Helvetica, Roboto, sans-serif; color: rgb(50, 50, 50); font-styl=
+e: normal; font-weight: normal; text-decoration: none; list-style-type: dis=
+c; }
+
+#rmnGenieWrappingDiv pre { white-space: pre; }
+
+#rmnGenieWrappingDiv .primary-text { color: rgb(50, 50, 50); font-size: 24p=
+x; font-weight: bold; letter-spacing: 0.5px; line-height: 30px; }
+
+#rmnGenieWrappingDiv .secondary-text { color: rgb(50, 50, 50); font-size: 1=
+4px; font-weight: 600; letter-spacing: 0.3px; line-height: 22px; margin: 0.=
+5em 0px; }
+
+#rmnGenieWrappingDiv .secondary-text .button-text, #rmnGenieWrappingDiv .se=
+condary-text .button-code, #rmnGenieWrappingDiv .secondary-text .rmnGenie-c=
+odeButton { margin: 0px; }
+
+#rmnGenieWrappingDiv .bbb-container-dark .primary-text, #rmnGenieWrappingDi=
+v .bbb-container-dark .secondary-text { color: rgb(255, 255, 255); }
+
+#rmnGenieWrappingDiv .pre-wrap { white-space: pre-wrap; }
+
+#rmnGenieWrappingDiv .no-wrap { white-space: nowrap; }
+
+@keyframes cloud-drift {=20
+  100% { background-position-x: -267px, -517px, 0px; }
+}
+
+#rmnGenieWrappingDiv .bbb-container-light, #rmnGenieWrappingDiv .bbb-contai=
+ner-gray, #rmnGenieWrappingDiv .bbb-container-dark { display: flex; align-i=
+tems: flex-start; flex-flow: column nowrap; justify-content: center; min-he=
+ight: 290px; overflow: hidden; padding: 60px 42px 42px; position: relative;=
+ width: 470px; z-index: 2; }
+
+#rmnGenieWrappingDiv .justify-center.bbb-container-light, #rmnGenieWrapping=
+Div .justify-center.bbb-container-gray, #rmnGenieWrappingDiv .justify-cente=
+r.bbb-container-dark { text-align: center; align-items: center; }
+
+#rmnGenieWrappingDiv .bbb-container-light, #rmnGenieWrappingDiv .bbb-contai=
+ner-gray, #rmnGenieWrappingDiv .bbb-container-dark { margin-right: 0px; tra=
+nsition: margin-right 500ms ease 500ms; }
+
+#rmnGenieWrappingDiv .show-sidecar.bbb-container-light, #rmnGenieWrappingDi=
+v .show-sidecar.bbb-container-gray, #rmnGenieWrappingDiv .show-sidecar.bbb-=
+container-dark { margin-right: 310px; }
+
+#rmnGenieWrappingDiv .bbb-container-light { background: url("data:image/svg=
++xml,%3Csvg xmlns=3D'http://www.w3.org/2000/svg' width=3D'134' height=3D'29=
+'%3E %3Cg fill=3D'%23c8c8c8'%3E %3Cpath d=3D'M22.875 23.734c-1.05-.076-1.8-=
+.305-2.625-.916-.675-.61-1.2-1.526-1.65-2.747-.9-2.595-1.875-5.8-2.325-7.47=
+9 6-2.137 8.85-4.884 8.85-8.013 0-2.824-2.25-4.732-7.35-4.045-2.25.305-3.9.=
+61-5.625.916C5.7 2.747 3.3 5.647 3.3 8.547c0 1.985 1.725 3.358 3.675 3.358 =
+1.35 0 1.5-.763 1.05-1.068-.825-.61-1.35-1.298-1.35-2.366 0-1.755 1.275-3.8=
+92 5.925-4.96.3-.077.525-.153.825-.153-.75 2.213-2.175 6.181-3.375 9.54-7.1=
+25 2.9-9.375 6.868-9.375 9.615 0 2.06 1.575 3.282 3.525 3.282 2.85 0 5.175-=
+1.984 6.975-6.41a101.754 101.754 0 0 0 2.1-5.42c.45 1.756 1.275 4.732 2.175=
+ 7.174.525 1.374.975 2.443 1.725 3.13.825.839 2.025 1.297 3.375 1.297 1.65 =
+0 2.625-.534 2.85-.992.225-.458.075-.763-.525-.84zm-15-5.342c-1.575 3.282-2=
+.55 4.655-3.75 4.884-.525.077-.975-.152-.975-.992 0-.916.975-4.273 6.075-7.=
+02-.6 1.373-1.05 2.441-1.35 3.128zm6.3-7.097c1.275-3.434 2.4-6.716 3-8.7 2.=
+7-.306 4.05.534 4.05 2.594 0 1.985-1.65 3.969-5.25 5.343-.6.305-1.2.534-1.8=
+.763zm76.275 7.173c-.525 0-1.35.916-2.775.916-.975 0-1.5-.61-1.5-1.984 0-.3=
+05.075-.687.15-1.068h.375c4.65 0 7.425-2.748 7.425-5.343 0-1.907-1.425-2.9-=
+2.85-2.9-3.45 0-7.65 4.198-8.325 8.472-.975 1.755-1.8 2.365-2.325 2.365-.6 =
+0-.525-.84 0-2.365.825-2.29 1.95-5.495 2.925-7.861C85.575 3.892 86.775 1.22=
+1 87 .687c.15-.534-.15-.61-.675-.534-2.025.305-3.15.229-3.975 1.679-1.35 2.=
+29-7.125 11.447-7.125 11.447S76.95 1.908 77.175.763c.15-.61-.225-.84-.75-.6=
+87-.675.23-1.2.306-2.1.61-.75.23-.9.535-1.425 1.756-.3.61-2.475 7.326-4.05 =
+10.684-1.65 3.587-3 5.648-6.075 5.953-.825.076-.9.534-.675 1.068.45 1.145 1=
+.725 1.832 2.775 1.832 1.95 0 3.3-1.374 4.65-4.655 1.125-2.671 2.7-7.327 3.=
+9-10.837-.975 5.418-2.175 12.668-2.4 14.576-.075 1.145 1.35 1.145 1.95.076 =
+1.575-2.9 4.95-8.7 7.95-14.042-1.2 2.977-2.7 6.564-3.375 8.548-.45 1.45-.9 =
+2.518-.9 3.892 0 1.526 1.05 2.518 2.25 2.518s2.55-.61 4.05-2.518c.45 1.602 =
+1.575 2.518 3.525 2.518 2.55 0 4.425-1.755 4.425-2.9 0-.458-.15-.687-.45-.6=
+87zm-.075-8.013c1.425 0 .3 3.816-3.45 3.969.975-2.06 2.475-3.969 3.45-3.969=
+z'/%3E %3Cpath d=3D'M111.9 4.121c1.35-.992 2.4-1.068 2.7-1.297.45-.382-.15-=
+2.442-2.025-2.442-3 0-4.575 3.815-5.775 7.173a251.41 251.41 0 0 0-2.325 6.9=
+45c.3-4.732.9-12.21.9-13.05 0-.458 0-.687-.225-.763-.075-.076-.3-.076-.375-=
+.076h-6.3c-7.65 0-7.05 7.25-2.325 7.25.9 0 .9-.84.45-1.069-1.725-.84-2.1-4.=
+045 3.675-4.045h1.575c-.75 2.519-2.025 6.716-3.75 10.38-1.8 3.968-2.85 5.41=
+8-5.7 6.18-.825.23-.75.688-.525 1.222.3.61 1.275 1.374 2.55 1.374 2.25 0 3.=
+45-1.68 4.65-5.037 1.2-3.282 2.175-6.41 2.925-8.853v.076c-.225 5.266-.375 1=
+1.982-.45 13.203 0 .916.3.916 1.05.61 1.425-.61 1.95-.839 2.325-2.06 1.2-3.=
+74 2.4-6.945 3.75-10.455.75-2.366 2.1-4.426 3.225-5.266z'/%3E %3Cpath d=3D'=
+M116.025 8.395c-6 0-9 7.097-9 10.15 0 2.213 1.35 3.51 3.675 3.51 5.025 0 7.=
+95-7.02 7.95-10.226 0-2.137-.975-3.434-2.625-3.434zm-4.35 10.837c-2.25 0 .7=
+5-8.548 2.775-8.548 1.875 0-.375 8.548-2.775 8.548z'/%3E %3Cpath d=3D'M131.=
+925 4.655c-.525 0-2.25.077-4.95.153.45-1.069.75-1.908 1.05-2.519.15-.457.07=
+5-.686-.375-.686-.375 0-1.125.152-1.95.381-1.2.305-1.275.458-1.95 1.832-.15=
+.305-.3.687-.45 1.145-2.625.076-5.625.228-9 .381-1.35.076-3.15 1.755-1.575 =
+1.755 3.15 0 6.6.153 9.675.23-.45 1.297-1.05 2.9-1.8 4.807-.9 2.366-2.175 5=
+.19-2.175 7.174 0 1.45.975 2.67 2.7 2.67 2.175 0 3-1.296 2.775-1.983-.15-.4=
+58-.525-.382-1.35-.382-.6 0-.75-.381-.75-.84 0-.686.3-1.373.675-2.289A375.3=
+5 375.35 0 0 1 126 7.48h2.475c1.875 0 2.55-.076 3.225-.534.525-.458.825-.68=
+7 1.125-1.069.225-.458.375-1.22-.9-1.22zM55.65 7.784c.975 0 2.025-.916 2.25=
+-2.06.225-1.145-.375-2.06-1.35-2.06-.975 0-2.025.915-2.25 2.06-.225 1.144.3=
+75 2.06 1.35 2.06z'/%3E %3Cpath d=3D'M59.925 19.613c-.45-.076-.6-.381-.6-.9=
+92 0-.687.225-1.603.525-2.671C67.65 12.21 72.825.687 66.975.687c-3.9 0-8.77=
+5 8.776-10.275 14.729-.9 1.45-2.325 3.587-3.375 3.587-.825 0-.6-1.069 0-2.6=
+71 1.35-3.74 3.3-7.556 3.3-7.556s-.975-.458-2.325-.229c-.9.153-1.275.61-1.6=
+5 1.374-.075.076-.075.153-.15.305-2.55 5.571-4.125 8.7-5.625 8.7-1.05 0-.45=
+-1.144.15-2.747 1.35-3.74 3.3-7.555 3.3-7.555s-.975-.458-2.325-.23c-.825.15=
+3-1.2.535-1.65 1.298-.3-.763-.825-1.526-2.1-1.526-3.75 0-6.6 4.96-7.425 8.3=
+95-.75 1.22-1.8 2.518-2.55 2.518-.75 0-.75-.687-.15-2.29.975-2.518 2.85-6.9=
+44 4.275-10.378 3.675.076 7.2.152 9.225.152 1.875 0 2.55-.076 3.225-.534.52=
+5-.458.825-.687 1.125-1.068.3-.382.45-1.145-.825-1.145-.675 0-5.775.152-11.=
+85.381.45-1.068.825-1.908 1.05-2.365.15-.077-.075-.382-.525-.306-.675.077-.=
+975.153-1.725.382-1.125.305-1.425.61-2.025 1.984l-.375.763c-2.4.077-4.875.2=
+3-7.125.306-1.35.076-2.775 1.526-1.2 1.526 1.95 0 4.725.076 7.5.076a53.133 =
+53.133 0 0 0-1.5 3.663c-.075.077-.075.23-.15.382-1.95 4.426-4.875 9.158-8.1=
+ 9.158-1.275 0-1.8-.84-1.8-1.908 0-.382.075-.84.15-1.297h.45c4.65 0 7.35-2.=
+9 7.35-5.572 0-1.678-1.425-2.747-2.775-2.747-3.825 0-8.475 5.037-8.475 9.69=
+2 0 2.519 1.35 4.198 3.6 4.198 3 0 5.4-1.908 7.05-3.969-.075.458-.15.916-.1=
+5 1.374 0 1.45.825 2.518 2.175 2.518 1.5 0 2.85-.916 4.05-2.594.225 1.602 1=
+.2 2.594 2.55 2.594 1.575 0 3-1.22 4.05-2.747.075 1.374.525 2.747 2.25 2.74=
+7 1.275 0 2.55-.687 4.05-2.823.075 1.373.6 2.9 2.25 2.9 1.575 0 3-1.145 4.2=
+75-2.9.15 1.755 1.05 2.823 2.4 2.823 1.35 0 2.55-.916 2.475-1.908-.075-.84-=
+.675-.458-1.125-.534zM66.6 3.205c.825 0-1.5 6.182-5.7 9.616 1.8-4.503 4.725=
+-9.616 5.7-9.616zm-39.15 7.098c1.425 0 .6 4.12-3.3 4.12h-.075c.9-2.136 2.4-=
+4.12 3.375-4.12zm13.05 8.929c-2.175 0 1.5-8.471 3.6-8.471.825 0 1.05.534 1.=
+2.992-1.725 4.044-3.075 7.479-4.8 7.479z'/%3E %3C/g%3E %3C/svg%3E") 21px 21=
+px / auto 18px no-repeat rgb(255, 255, 255); }
+
+#rmnGenieWrappingDiv .bbb-container-light::before { content: ""; opacity: 0=
+; transition: opacity 500ms ease 0s; }
+
+#rmnGenieWrappingDiv .bbb-container-light.bbb-no-logo { background:  0% 0% =
+/ auto rgb(255, 255, 255); padding-top: 42px; }
+
+#rmnGenieWrappingDiv .bbb-container-light.bbb-gray-blob::after { content: "=
+"; background: url("data:image/svg+xml,%3Csvg xmlns=3D'http://www.w3.org/20=
+00/svg' viewBox=3D'0 0 297.79 323.56'%3E%3Cpath d=3D'M292.59 190.87A151.46 =
+151.46 0 0 0 185.5 5.38C104.7-16.27 0 28.99 0 112.47c0 61.17 85.11 41.48 95=
+.45 69.73 16.38 44.75-37.88 102.5 11.65 115.77a151.45 151.45 0 0 0 185.49-1=
+07.1z' fill=3D'%236749fc' fill-rule=3D'evenodd' opacity=3D'.05'/%3E%3Cpath =
+d=3D'M45.25 44.43Q-11.78 76.5 10.88 153.29c22.61 76.79 88.21 13.48 94.81 36=
+.66 8.67 30.47-26.82 84.71-17.39 112.71q7 20.83 98.55 19.85' fill=3D'none' =
+stroke=3D'%236749fc' stroke-miterlimit=3D'10' stroke-width=3D'2' opacity=3D=
+'.05'/%3E%3Cpath d=3D'M190.88 295.12s-17-10-30-23-18-25-8-41 30-31 32-61-20=
+-28-25-82 5-68 5-68' fill=3D'none' stroke=3D'%236749fc' stroke-miterlimit=
+=3D'10' stroke-width=3D'2' opacity=3D'.05'/%3E%3Cpath fill=3D'%23533ba4' d=
+=3D'M227.69 166.71l-.3-.22.3.22zM227.7 166.7l-.31-.21.3.22.01-.01z'/%3E%3C/=
+svg%3E") 0px 0px no-repeat transparent; width: 290px; height: 290px; positi=
+on: absolute; top: 0px; right: 0px; transform: translate(50%, -15%); }
+
+#rmnGenieWrappingDiv .bbb-container-light.bbb-color-blob { padding-right: 1=
+59.5px; }
+
+#rmnGenieWrappingDiv .bbb-container-light.bbb-color-blob::after { content: =
+""; background: url("data:image/svg+xml,%3Csvg xmlns=3D'http://www.w3.org/2=
+000/svg' viewBox=3D'0 0 271.01 278.52'%3E%3Cdefs%3E%3ClinearGradient id=3D'=
+a' x1=3D'-177.64' y1=3D'539.25' x2=3D'-177.75' y2=3D'539.96' gradientTransf=
+orm=3D'matrix(69.62 -259.83 -262.64 -70.37 154194.2 -8034.16)' gradientUnit=
+s=3D'userSpaceOnUse'%3E%3Cstop offset=3D'0' stop-color=3D'%2341299a'/%3E%3C=
+stop offset=3D'1' stop-color=3D'%234c18f3'/%3E%3C/linearGradient%3E%3C/defs=
+%3E%3Cpath d=3D'M305.4 206.91a134.5 134.5 0 0 0-95.11-164.73C138.54 23 45.5=
+7 63.15 45.57 137.29c0 54.31 75.58 36.83 84.76 61.92 14.55 39.74-33.64 91 1=
+0.34 102.8a134.49 134.49 0 0 0 164.73-95.1z' transform=3D'translate(-39.01 =
+-37.4)' fill-rule=3D'evenodd' fill=3D'url(%23a)'/%3E%3Cpath d=3D'M40.24 33.=
+52q-54.39 27.72-33.39 95c21 67.28 83.74 12.3 89.87 32.6 8.05 26.7-26 73.92-=
+17.24 98.46q6.51 18.27 93.51 17.93' fill=3D'none' stroke=3D'%23f5be44' stro=
+ke-linecap=3D'square' stroke-width=3D'2'/%3E%3Ccircle cx=3D'74.32' cy=3D'18=
+3.18' r=3D'2.5' fill=3D'%23f5a623'/%3E%3Ccircle cx=3D'99.32' cy=3D'127.18' =
+r=3D'2.5' fill=3D'%23f5a623'/%3E%3Ccircle cx=3D'173.32' cy=3D'269.18' r=3D'=
+2.5' fill=3D'%23f5a623'/%3E%3Ccircle cx=3D'119.32' cy=3D'230.18' r=3D'2.5' =
+fill=3D'%23f5a623'/%3E%3Ccircle cx=3D'77.32' cy=3D'58.18' r=3D'2.5' fill=3D=
+'%23f5a623'/%3E%3C/svg%3E") 0px 0px no-repeat transparent; width: 290px; he=
+ight: 290px; position: absolute; top: 0px; right: 0px; transform: translate=
+(50%, -15%); }
+
+#rmnGenieWrappingDiv .bbb-container-gray { background: url("data:image/svg+=
+xml,%3Csvg xmlns=3D'http://www.w3.org/2000/svg' viewBox=3D'0 0 309.19 451.8=
+3'%3E%3Cpath d=3D'M70.06.88q-96.42 51.93-58.23 176.16c38.18 124.22 149.09 2=
+1.72 160.24 59.27 14.64 49.29-45.37 137.07-29.45 182.36q11.85 33.72 166.56 =
+32.09' fill=3D'none' stroke=3D'%23471fce' stroke-miterlimit=3D'10' stroke-w=
+idth=3D'2' opacity=3D'.05'/%3E%3C/svg%3E") 10% center / 75% no-repeat, url(=
+"data:image/svg+xml,%3Csvg xmlns=3D'http://www.w3.org/2000/svg' viewBox=3D'=
+0 0 67.85 482.45'%3E%3Cpath d=3D'M67.3 481.62s-26-17.49-45.94-40.24-27.56-4=
+3.76-12.25-71.76 45.94-54.23 49-106.72-30.62-49-38.28-143.45 7.66-119 7.66-=
+119' fill=3D'none' stroke=3D'%23471fce' stroke-miterlimit=3D'10' stroke-wid=
+th=3D'2' opacity=3D'.05'/%3E%3C/svg%3E") 95% center / 15% no-repeat rgb(251=
+, 250, 255); padding-top: 42px; }
+
+#rmnGenieWrappingDiv .bbb-container-dark { background: rgb(255, 255, 255); =
+}
+
+#rmnGenieWrappingDiv .bbb-container-dark::before { content: ""; background:=
+ url("data:image/svg+xml,%3Csvg xmlns=3D'http://www.w3.org/2000/svg' width=
+=3D'134' height=3D'29'%3E %3Cg fill=3D'rgba(255, 255, 255, 0.35)'%3E %3Cpat=
+h d=3D'M22.875 23.734c-1.05-.076-1.8-.305-2.625-.916-.675-.61-1.2-1.526-1.6=
+5-2.747-.9-2.595-1.875-5.8-2.325-7.479 6-2.137 8.85-4.884 8.85-8.013 0-2.82=
+4-2.25-4.732-7.35-4.045-2.25.305-3.9.61-5.625.916C5.7 2.747 3.3 5.647 3.3 8=
+.547c0 1.985 1.725 3.358 3.675 3.358 1.35 0 1.5-.763 1.05-1.068-.825-.61-1.=
+35-1.298-1.35-2.366 0-1.755 1.275-3.892 5.925-4.96.3-.077.525-.153.825-.153=
+-.75 2.213-2.175 6.181-3.375 9.54-7.125 2.9-9.375 6.868-9.375 9.615 0 2.06 =
+1.575 3.282 3.525 3.282 2.85 0 5.175-1.984 6.975-6.41a101.754 101.754 0 0 0=
+ 2.1-5.42c.45 1.756 1.275 4.732 2.175 7.174.525 1.374.975 2.443 1.725 3.13.=
+825.839 2.025 1.297 3.375 1.297 1.65 0 2.625-.534 2.85-.992.225-.458.075-.7=
+63-.525-.84zm-15-5.342c-1.575 3.282-2.55 4.655-3.75 4.884-.525.077-.975-.15=
+2-.975-.992 0-.916.975-4.273 6.075-7.02-.6 1.373-1.05 2.441-1.35 3.128zm6.3=
+-7.097c1.275-3.434 2.4-6.716 3-8.7 2.7-.306 4.05.534 4.05 2.594 0 1.985-1.6=
+5 3.969-5.25 5.343-.6.305-1.2.534-1.8.763zm76.275 7.173c-.525 0-1.35.916-2.=
+775.916-.975 0-1.5-.61-1.5-1.984 0-.305.075-.687.15-1.068h.375c4.65 0 7.425=
+-2.748 7.425-5.343 0-1.907-1.425-2.9-2.85-2.9-3.45 0-7.65 4.198-8.325 8.472=
+-.975 1.755-1.8 2.365-2.325 2.365-.6 0-.525-.84 0-2.365.825-2.29 1.95-5.495=
+ 2.925-7.861C85.575 3.892 86.775 1.221 87 .687c.15-.534-.15-.61-.675-.534-2=
+.025.305-3.15.229-3.975 1.679-1.35 2.29-7.125 11.447-7.125 11.447S76.95 1.9=
+08 77.175.763c.15-.61-.225-.84-.75-.687-.675.23-1.2.306-2.1.61-.75.23-.9.53=
+5-1.425 1.756-.3.61-2.475 7.326-4.05 10.684-1.65 3.587-3 5.648-6.075 5.953-=
+.825.076-.9.534-.675 1.068.45 1.145 1.725 1.832 2.775 1.832 1.95 0 3.3-1.37=
+4 4.65-4.655 1.125-2.671 2.7-7.327 3.9-10.837-.975 5.418-2.175 12.668-2.4 1=
+4.576-.075 1.145 1.35 1.145 1.95.076 1.575-2.9 4.95-8.7 7.95-14.042-1.2 2.9=
+77-2.7 6.564-3.375 8.548-.45 1.45-.9 2.518-.9 3.892 0 1.526 1.05 2.518 2.25=
+ 2.518s2.55-.61 4.05-2.518c.45 1.602 1.575 2.518 3.525 2.518 2.55 0 4.425-1=
+.755 4.425-2.9 0-.458-.15-.687-.45-.687zm-.075-8.013c1.425 0 .3 3.816-3.45 =
+3.969.975-2.06 2.475-3.969 3.45-3.969z'/%3E %3Cpath d=3D'M111.9 4.121c1.35-=
+.992 2.4-1.068 2.7-1.297.45-.382-.15-2.442-2.025-2.442-3 0-4.575 3.815-5.77=
+5 7.173a251.41 251.41 0 0 0-2.325 6.945c.3-4.732.9-12.21.9-13.05 0-.458 0-.=
+687-.225-.763-.075-.076-.3-.076-.375-.076h-6.3c-7.65 0-7.05 7.25-2.325 7.25=
+.9 0 .9-.84.45-1.069-1.725-.84-2.1-4.045 3.675-4.045h1.575c-.75 2.519-2.025=
+ 6.716-3.75 10.38-1.8 3.968-2.85 5.418-5.7 6.18-.825.23-.75.688-.525 1.222.=
+3.61 1.275 1.374 2.55 1.374 2.25 0 3.45-1.68 4.65-5.037 1.2-3.282 2.175-6.4=
+1 2.925-8.853v.076c-.225 5.266-.375 11.982-.45 13.203 0 .916.3.916 1.05.61 =
+1.425-.61 1.95-.839 2.325-2.06 1.2-3.74 2.4-6.945 3.75-10.455.75-2.366 2.1-=
+4.426 3.225-5.266z'/%3E %3Cpath d=3D'M116.025 8.395c-6 0-9 7.097-9 10.15 0 =
+2.213 1.35 3.51 3.675 3.51 5.025 0 7.95-7.02 7.95-10.226 0-2.137-.975-3.434=
+-2.625-3.434zm-4.35 10.837c-2.25 0 .75-8.548 2.775-8.548 1.875 0-.375 8.548=
+-2.775 8.548z'/%3E %3Cpath d=3D'M131.925 4.655c-.525 0-2.25.077-4.95.153.45=
+-1.069.75-1.908 1.05-2.519.15-.457.075-.686-.375-.686-.375 0-1.125.152-1.95=
+.381-1.2.305-1.275.458-1.95 1.832-.15.305-.3.687-.45 1.145-2.625.076-5.625.=
+228-9 .381-1.35.076-3.15 1.755-1.575 1.755 3.15 0 6.6.153 9.675.23-.45 1.29=
+7-1.05 2.9-1.8 4.807-.9 2.366-2.175 5.19-2.175 7.174 0 1.45.975 2.67 2.7 2.=
+67 2.175 0 3-1.296 2.775-1.983-.15-.458-.525-.382-1.35-.382-.6 0-.75-.381-.=
+75-.84 0-.686.3-1.373.675-2.289A375.35 375.35 0 0 1 126 7.48h2.475c1.875 0 =
+2.55-.076 3.225-.534.525-.458.825-.687 1.125-1.069.225-.458.375-1.22-.9-1.2=
+2zM55.65 7.784c.975 0 2.025-.916 2.25-2.06.225-1.145-.375-2.06-1.35-2.06-.9=
+75 0-2.025.915-2.25 2.06-.225 1.144.375 2.06 1.35 2.06z'/%3E %3Cpath d=3D'M=
+59.925 19.613c-.45-.076-.6-.381-.6-.992 0-.687.225-1.603.525-2.671C67.65 12=
+.21 72.825.687 66.975.687c-3.9 0-8.775 8.776-10.275 14.729-.9 1.45-2.325 3.=
+587-3.375 3.587-.825 0-.6-1.069 0-2.671 1.35-3.74 3.3-7.556 3.3-7.556s-.975=
+-.458-2.325-.229c-.9.153-1.275.61-1.65 1.374-.075.076-.075.153-.15.305-2.55=
+ 5.571-4.125 8.7-5.625 8.7-1.05 0-.45-1.144.15-2.747 1.35-3.74 3.3-7.555 3.=
+3-7.555s-.975-.458-2.325-.23c-.825.153-1.2.535-1.65 1.298-.3-.763-.825-1.52=
+6-2.1-1.526-3.75 0-6.6 4.96-7.425 8.395-.75 1.22-1.8 2.518-2.55 2.518-.75 0=
+-.75-.687-.15-2.29.975-2.518 2.85-6.944 4.275-10.378 3.675.076 7.2.152 9.22=
+5.152 1.875 0 2.55-.076 3.225-.534.525-.458.825-.687 1.125-1.068.3-.382.45-=
+1.145-.825-1.145-.675 0-5.775.152-11.85.381.45-1.068.825-1.908 1.05-2.365.1=
+5-.077-.075-.382-.525-.306-.675.077-.975.153-1.725.382-1.125.305-1.425.61-2=
+.025 1.984l-.375.763c-2.4.077-4.875.23-7.125.306-1.35.076-2.775 1.526-1.2 1=
+.526 1.95 0 4.725.076 7.5.076a53.133 53.133 0 0 0-1.5 3.663c-.075.077-.075.=
+23-.15.382-1.95 4.426-4.875 9.158-8.1 9.158-1.275 0-1.8-.84-1.8-1.908 0-.38=
+2.075-.84.15-1.297h.45c4.65 0 7.35-2.9 7.35-5.572 0-1.678-1.425-2.747-2.775=
+-2.747-3.825 0-8.475 5.037-8.475 9.692 0 2.519 1.35 4.198 3.6 4.198 3 0 5.4=
+-1.908 7.05-3.969-.075.458-.15.916-.15 1.374 0 1.45.825 2.518 2.175 2.518 1=
+.5 0 2.85-.916 4.05-2.594.225 1.602 1.2 2.594 2.55 2.594 1.575 0 3-1.22 4.0=
+5-2.747.075 1.374.525 2.747 2.25 2.747 1.275 0 2.55-.687 4.05-2.823.075 1.3=
+73.6 2.9 2.25 2.9 1.575 0 3-1.145 4.275-2.9.15 1.755 1.05 2.823 2.4 2.823 1=
+.35 0 2.55-.916 2.475-1.908-.075-.84-.675-.458-1.125-.534zM66.6 3.205c.825 =
+0-1.5 6.182-5.7 9.616 1.8-4.503 4.725-9.616 5.7-9.616zm-39.15 7.098c1.425 0=
+ .6 4.12-3.3 4.12h-.075c.9-2.136 2.4-4.12 3.375-4.12zm13.05 8.929c-2.175 0 =
+1.5-8.471 3.6-8.471.825 0 1.05.534 1.2.992-1.725 4.044-3.075 7.479-4.8 7.47=
+9z'/%3E %3C/g%3E %3C/svg%3E") 21px 21px / auto 18px no-repeat, linear-gradi=
+ent(to right, rgb(76, 24, 243), rgb(59, 31, 153)) 0% 0% / auto; height: 100=
+%; min-height: 290px; width: 100%; z-index: -1; position: absolute; top: 0p=
+x; left: 0px; opacity: 1; transition: opacity 500ms ease 0s; }
+
+#rmnGenieWrappingDiv .bbb-container-dark.bbb-no-logo { background:  0% 0% /=
+ auto rgb(255, 255, 255); padding-top: 42px; }
+
+#rmnGenieWrappingDiv .bbb-container-dark.bbb-no-logo::before { background: =
+linear-gradient(to right, rgb(76, 24, 243), rgb(59, 31, 153)) 0% 0% / auto;=
+ }
+
+#rmnGenieWrappingDiv .bbb-container-dark.bbb-gray-blob::after, #rmnGenieWra=
+ppingDiv .bbb-container-dark.bbb-color-blob::after { content: ""; backgroun=
+d: url("data:image/svg+xml,%3Csvg xmlns=3D'http://www.w3.org/2000/svg' view=
+Box=3D'0 0 297.79 323.56'%3E%3Cpath d=3D'M292.59 190.87A151.45 151.45 0 0 0=
+ 185.5 5.38C104.7-16.27 0 28.99 0 112.47c0 61.17 85.12 41.48 95.46 69.73 16=
+.37 44.75-37.89 102.5 11.64 115.77a151.44 151.44 0 0 0 185.49-107.1z' fill=
+=3D'%23f5f6f7' fill-rule=3D'evenodd' opacity=3D'.05'/%3E%3Cg opacity=3D'.05=
+' fill=3D'%23f5f6f7'%3E%3Cpath d=3D'M44.81 43.56c-13.69 7.69-24 17.34-31 28=
+.94S3.42 97.6 3.42 112.97c0 12.33 2.12 25.87 6.46 40.6 4.67 15.87 11.2 25.9=
+3 18.78 32s16.14 8.13 24.63 8.13c8.65 0 17.26-2.08 24.94-4.13 3.84-1 7.45-2=
+.05 10.69-2.81a39.44 39.44 0 0 1 8.5-1.26 8.87 8.87 0 0 1 4.72 1.07 5.86 5.=
+86 0 0 1 2.54 3.65 38.69 38.69 0 0 1 1.34 10.63c0 13.28-5 29.46-10.14 45.54=
+s-10.22 32.06-10.23 45.23a35.34 35.34 0 0 0 1.66 11.34c1.22 3.63 4.16 6.7 8=
+.61 9.26 6.69 3.84 16.87 6.64 30.65 8.52s31.11 2.81 52.06 2.81q4 0 8.18-.05=
+v-2q-4.17 0-8.16.05-41.77 0-64.21-5c-7.47-1.64-13.31-3.7-17.5-6.11s-6.71-5.=
+15-7.72-8.15a33.8 33.8 0 0 1-1.55-10.71c0-12.66 5-28.55 10.14-44.63s10.22-3=
+2.37 10.23-46.14a40.73 40.73 0 0 0-1.41-11.18 8 8 0 0 0-3.42-4.81 10.89 10.=
+89 0 0 0-5.77-1.36 41.06 41.06 0 0 0-9 1.31c-9.93 2.33-22.69 6.89-35.18 6.8=
+9-8.19 0-16.22-1.94-23.38-7.69s-13.52-15.4-18.11-31c-4.3-14.59-6.38-27.94-6=
+.38-40 0-15.07 3.39-28.19 10.1-39.45S32.3 52.86 45.75 45.3l-1-1.74z'/%3E%3C=
+path d=3D'M191.39 294.26l-.19-.11c-1.88-1.13-17.54-10.66-29.61-22.74a56.84 =
+56.84 0 0 1-9.58-12 24.45 24.45 0 0 1-3.42-12.12c0-4.79 1.57-9.89 5.14-15.6=
+1 4.91-7.87 12.42-15.63 19-25.22s12.16-21 13.17-36.24c.09-1.32.13-2.58.13-3=
+.79a39.21 39.21 0 0 0-3.34-16.43c-3.05-6.95-7.61-12.8-11.83-21.72s-8.17-20.=
+94-10-40.22c-1-10.77-1.4-19.94-1.4-27.72 0-15.55 1.6-25.51 3.17-31.55a39.31=
+ 39.31 0 0 1 2.18-6.37 13.88 13.88 0 0 1 .68-1.36l.17-.29v-.06l-.31-.22.31.=
+22-.31-.22.31.22-1.63-1.16c-.16.23-6.59 9.41-6.59 40.77 0 7.84.41 17.07 1.4=
+1 27.9a134.56 134.56 0 0 0 6 30.57c3.91 11.69 8.78 18.87 12.58 25.45a53.28 =
+53.28 0 0 1 4.69 9.95 38 38 0 0 1 1.86 12.22c0 1.16 0 2.38-.12 3.65-1 14.79=
+-6.39 25.84-12.83 35.26s-13.94 17.15-19 25.28c-3.72 5.94-5.45 11.43-5.45 16=
+.67a26.54 26.54 0 0 0 3.67 13.09 59.13 59.13 0 0 0 9.92 12.48c13.12 13.11 3=
+0.16 23.13 30.2 23.15l1-1.72z'/%3E%3C/g%3E%3C/svg%3E") 0px 0px no-repeat tr=
+ansparent; width: 290px; height: 290px; position: absolute; top: 0px; right=
+: 0px; transform: translate(50%, -15%); }
+
+#rmnGenieWrappingDiv .bbb-container-dark.bbb-clouds { padding: 1.5em 2em; }
+
+#rmnGenieWrappingDiv .bbb-container-dark.bbb-clouds::before { animation: cl=
+oud-drift 15s linear 0s infinite normal none running; background: url("data=
+:image/svg+xml,%3Csvg xmlns=3D'http://www.w3.org/2000/svg' viewBox=3D'0 0 5=
+20 193'%3E%3Cpath d=3D'M218.68 171h133.37a8 8 0 0 1 7.95 8v6.1a8 8 0 0 1-7.=
+95 7.95H72a8 8 0 0 1-8-7.95V179a8 8 0 0 1 8-8h68.2q7.75-2.31 7.76-10 0-11-1=
+5.91-11H8a8 8 0 0 1-8-7.95V136a8 8 0 0 1 8-8h123q5.68-2.31 5.68-10T131 108h=
+-16a8 8 0 0 1-7.95-7.95V94a8 8 0 0 1 7.95-8h69.2q7.81-2.31 7.82-10 0-11-16-=
+11H25a8 8 0 0 1-8-8v-6a8 8 0 0 1 8-8h115.16q7.77-2.31 7.78-10 0-11-15.94-11=
+H80a8 8 0 0 1-8-8V8a8 8 0 0 1 8-8h212.1a8 8 0 0 1 7.9 8v6.1a8 8 0 0 1-7.95 =
+8H235q-15.92 0-15.91 11 0 7.68 7.76 10h119.2a8 8 0 0 1 7.95 8v6.1a8 8 0 0 1=
+-7.95 8H291q-14.82 0-14.82 11 0 7.68 7.23 10h152.64A8 8 0 0 1 444 94v6.1a8 =
+8 0 0 1-7.95 7.95H184q-5.73 2.31-5.72 10T184 128h99.05a8 8 0 0 1 7.95 8v6.1=
+a8 8 0 0 1-7.95 7.95H227q-16.25 0-16.25 11 0 7.63 7.93 9.95z' fill=3D'%23ff=
+f' fill-rule=3D'evenodd' opacity=3D'.05'/%3E%3C/svg%3E") 250px -90px / 110%=
+ repeat-x, url("data:image/svg+xml,%3Csvg xmlns=3D'http://www.w3.org/2000/s=
+vg' viewBox=3D'0 0 520 193'%3E%3Cpath d=3D'M218.68 171h133.37a8 8 0 0 1 7.9=
+5 8v6.1a8 8 0 0 1-7.95 7.95H72a8 8 0 0 1-8-7.95V179a8 8 0 0 1 8-8h68.2q7.75=
+-2.31 7.76-10 0-11-15.91-11H8a8 8 0 0 1-8-7.95V136a8 8 0 0 1 8-8h123q5.68-2=
+.31 5.68-10T131 108h-16a8 8 0 0 1-7.95-7.95V94a8 8 0 0 1 7.95-8h69.2q7.81-2=
+.31 7.82-10 0-11-16-11H25a8 8 0 0 1-8-8v-6a8 8 0 0 1 8-8h115.16q7.77-2.31 7=
+.78-10 0-11-15.94-11H80a8 8 0 0 1-8-8V8a8 8 0 0 1 8-8h212.1a8 8 0 0 1 7.9 8=
+v6.1a8 8 0 0 1-7.95 8H235q-15.92 0-15.91 11 0 7.68 7.76 10h119.2a8 8 0 0 1 =
+7.95 8v6.1a8 8 0 0 1-7.95 8H291q-14.82 0-14.82 11 0 7.68 7.23 10h152.64A8 8=
+ 0 0 1 444 94v6.1a8 8 0 0 1-7.95 7.95H184q-5.73 2.31-5.72 10T184 128h99.05a=
+8 8 0 0 1 7.95 8v6.1a8 8 0 0 1-7.95 7.95H227q-16.25 0-16.25 11 0 7.63 7.93 =
+9.95z' fill=3D'%23fff' fill-rule=3D'evenodd' opacity=3D'.05'/%3E%3C/svg%3E"=
+) 0px 150px / 110% repeat-x, linear-gradient(to right, rgb(76, 24, 243), rg=
+b(59, 31, 153)) 0% 0% / auto; }
+
+#rmnGenieWrappingDiv .bbb-sidecar { align-items: center; background-color: =
+rgb(255, 255, 255); display: flex; flex-flow: column nowrap; justify-conten=
+t: flex-end; min-height: 290px; padding: 30px 25px; position: absolute; rig=
+ht: 0px; text-align: center; top: 0px; width: 310px; z-index: 1; }
+
+#rmnGenieWrappingDiv .bbb-sidecar > *, #rmnGenieWrappingDiv .bbb-sidecar .b=
+utton-primary, #rmnGenieWrappingDiv .bbb-sidecar .button-text, #rmnGenieWra=
+ppingDiv .bbb-sidecar .button-code, #rmnGenieWrappingDiv .bbb-sidecar .rmnG=
+enie-codeButton { margin-left: 0px; }
+
+#rmnGenieWrappingDiv .bbb-sidecar .button-text, #rmnGenieWrappingDiv .bbb-s=
+idecar .button-code, #rmnGenieWrappingDiv .bbb-sidecar .rmnGenie-codeButton=
+ { font-weight: 600; }
+
+#rmnGenieWrappingDiv .bbb-genie-logo { background: url("data:image/svg+xml,=
+%3Csvg xmlns=3D'http://www.w3.org/2000/svg' width=3D'134' height=3D'29'%3E =
+%3Cg fill=3D'%23c8c8c8'%3E %3Cpath d=3D'M22.875 23.734c-1.05-.076-1.8-.305-=
+2.625-.916-.675-.61-1.2-1.526-1.65-2.747-.9-2.595-1.875-5.8-2.325-7.479 6-2=
+.137 8.85-4.884 8.85-8.013 0-2.824-2.25-4.732-7.35-4.045-2.25.305-3.9.61-5.=
+625.916C5.7 2.747 3.3 5.647 3.3 8.547c0 1.985 1.725 3.358 3.675 3.358 1.35 =
+0 1.5-.763 1.05-1.068-.825-.61-1.35-1.298-1.35-2.366 0-1.755 1.275-3.892 5.=
+925-4.96.3-.077.525-.153.825-.153-.75 2.213-2.175 6.181-3.375 9.54-7.125 2.=
+9-9.375 6.868-9.375 9.615 0 2.06 1.575 3.282 3.525 3.282 2.85 0 5.175-1.984=
+ 6.975-6.41a101.754 101.754 0 0 0 2.1-5.42c.45 1.756 1.275 4.732 2.175 7.17=
+4.525 1.374.975 2.443 1.725 3.13.825.839 2.025 1.297 3.375 1.297 1.65 0 2.6=
+25-.534 2.85-.992.225-.458.075-.763-.525-.84zm-15-5.342c-1.575 3.282-2.55 4=
+.655-3.75 4.884-.525.077-.975-.152-.975-.992 0-.916.975-4.273 6.075-7.02-.6=
+ 1.373-1.05 2.441-1.35 3.128zm6.3-7.097c1.275-3.434 2.4-6.716 3-8.7 2.7-.30=
+6 4.05.534 4.05 2.594 0 1.985-1.65 3.969-5.25 5.343-.6.305-1.2.534-1.8.763z=
+m76.275 7.173c-.525 0-1.35.916-2.775.916-.975 0-1.5-.61-1.5-1.984 0-.305.07=
+5-.687.15-1.068h.375c4.65 0 7.425-2.748 7.425-5.343 0-1.907-1.425-2.9-2.85-=
+2.9-3.45 0-7.65 4.198-8.325 8.472-.975 1.755-1.8 2.365-2.325 2.365-.6 0-.52=
+5-.84 0-2.365.825-2.29 1.95-5.495 2.925-7.861C85.575 3.892 86.775 1.221 87 =
+.687c.15-.534-.15-.61-.675-.534-2.025.305-3.15.229-3.975 1.679-1.35 2.29-7.=
+125 11.447-7.125 11.447S76.95 1.908 77.175.763c.15-.61-.225-.84-.75-.687-.6=
+75.23-1.2.306-2.1.61-.75.23-.9.535-1.425 1.756-.3.61-2.475 7.326-4.05 10.68=
+4-1.65 3.587-3 5.648-6.075 5.953-.825.076-.9.534-.675 1.068.45 1.145 1.725 =
+1.832 2.775 1.832 1.95 0 3.3-1.374 4.65-4.655 1.125-2.671 2.7-7.327 3.9-10.=
+837-.975 5.418-2.175 12.668-2.4 14.576-.075 1.145 1.35 1.145 1.95.076 1.575=
+-2.9 4.95-8.7 7.95-14.042-1.2 2.977-2.7 6.564-3.375 8.548-.45 1.45-.9 2.518=
+-.9 3.892 0 1.526 1.05 2.518 2.25 2.518s2.55-.61 4.05-2.518c.45 1.602 1.575=
+ 2.518 3.525 2.518 2.55 0 4.425-1.755 4.425-2.9 0-.458-.15-.687-.45-.687zm-=
+.075-8.013c1.425 0 .3 3.816-3.45 3.969.975-2.06 2.475-3.969 3.45-3.969z'/%3=
+E %3Cpath d=3D'M111.9 4.121c1.35-.992 2.4-1.068 2.7-1.297.45-.382-.15-2.442=
+-2.025-2.442-3 0-4.575 3.815-5.775 7.173a251.41 251.41 0 0 0-2.325 6.945c.3=
+-4.732.9-12.21.9-13.05 0-.458 0-.687-.225-.763-.075-.076-.3-.076-.375-.076h=
+-6.3c-7.65 0-7.05 7.25-2.325 7.25.9 0 .9-.84.45-1.069-1.725-.84-2.1-4.045 3=
+.675-4.045h1.575c-.75 2.519-2.025 6.716-3.75 10.38-1.8 3.968-2.85 5.418-5.7=
+ 6.18-.825.23-.75.688-.525 1.222.3.61 1.275 1.374 2.55 1.374 2.25 0 3.45-1.=
+68 4.65-5.037 1.2-3.282 2.175-6.41 2.925-8.853v.076c-.225 5.266-.375 11.982=
+-.45 13.203 0 .916.3.916 1.05.61 1.425-.61 1.95-.839 2.325-2.06 1.2-3.74 2.=
+4-6.945 3.75-10.455.75-2.366 2.1-4.426 3.225-5.266z'/%3E %3Cpath d=3D'M116.=
+025 8.395c-6 0-9 7.097-9 10.15 0 2.213 1.35 3.51 3.675 3.51 5.025 0 7.95-7.=
+02 7.95-10.226 0-2.137-.975-3.434-2.625-3.434zm-4.35 10.837c-2.25 0 .75-8.5=
+48 2.775-8.548 1.875 0-.375 8.548-2.775 8.548z'/%3E %3Cpath d=3D'M131.925 4=
+.655c-.525 0-2.25.077-4.95.153.45-1.069.75-1.908 1.05-2.519.15-.457.075-.68=
+6-.375-.686-.375 0-1.125.152-1.95.381-1.2.305-1.275.458-1.95 1.832-.15.305-=
+.3.687-.45 1.145-2.625.076-5.625.228-9 .381-1.35.076-3.15 1.755-1.575 1.755=
+ 3.15 0 6.6.153 9.675.23-.45 1.297-1.05 2.9-1.8 4.807-.9 2.366-2.175 5.19-2=
+.175 7.174 0 1.45.975 2.67 2.7 2.67 2.175 0 3-1.296 2.775-1.983-.15-.458-.5=
+25-.382-1.35-.382-.6 0-.75-.381-.75-.84 0-.686.3-1.373.675-2.289A375.35 375=
+.35 0 0 1 126 7.48h2.475c1.875 0 2.55-.076 3.225-.534.525-.458.825-.687 1.1=
+25-1.069.225-.458.375-1.22-.9-1.22zM55.65 7.784c.975 0 2.025-.916 2.25-2.06=
+.225-1.145-.375-2.06-1.35-2.06-.975 0-2.025.915-2.25 2.06-.225 1.144.375 2.=
+06 1.35 2.06z'/%3E %3Cpath d=3D'M59.925 19.613c-.45-.076-.6-.381-.6-.992 0-=
+.687.225-1.603.525-2.671C67.65 12.21 72.825.687 66.975.687c-3.9 0-8.775 8.7=
+76-10.275 14.729-.9 1.45-2.325 3.587-3.375 3.587-.825 0-.6-1.069 0-2.671 1.=
+35-3.74 3.3-7.556 3.3-7.556s-.975-.458-2.325-.229c-.9.153-1.275.61-1.65 1.3=
+74-.075.076-.075.153-.15.305-2.55 5.571-4.125 8.7-5.625 8.7-1.05 0-.45-1.14=
+4.15-2.747 1.35-3.74 3.3-7.555 3.3-7.555s-.975-.458-2.325-.23c-.825.153-1.2=
+.535-1.65 1.298-.3-.763-.825-1.526-2.1-1.526-3.75 0-6.6 4.96-7.425 8.395-.7=
+5 1.22-1.8 2.518-2.55 2.518-.75 0-.75-.687-.15-2.29.975-2.518 2.85-6.944 4.=
+275-10.378 3.675.076 7.2.152 9.225.152 1.875 0 2.55-.076 3.225-.534.525-.45=
+8.825-.687 1.125-1.068.3-.382.45-1.145-.825-1.145-.675 0-5.775.152-11.85.38=
+1.45-1.068.825-1.908 1.05-2.365.15-.077-.075-.382-.525-.306-.675.077-.975.1=
+53-1.725.382-1.125.305-1.425.61-2.025 1.984l-.375.763c-2.4.077-4.875.23-7.1=
+25.306-1.35.076-2.775 1.526-1.2 1.526 1.95 0 4.725.076 7.5.076a53.133 53.13=
+3 0 0 0-1.5 3.663c-.075.077-.075.23-.15.382-1.95 4.426-4.875 9.158-8.1 9.15=
+8-1.275 0-1.8-.84-1.8-1.908 0-.382.075-.84.15-1.297h.45c4.65 0 7.35-2.9 7.3=
+5-5.572 0-1.678-1.425-2.747-2.775-2.747-3.825 0-8.475 5.037-8.475 9.692 0 2=
+.519 1.35 4.198 3.6 4.198 3 0 5.4-1.908 7.05-3.969-.075.458-.15.916-.15 1.3=
+74 0 1.45.825 2.518 2.175 2.518 1.5 0 2.85-.916 4.05-2.594.225 1.602 1.2 2.=
+594 2.55 2.594 1.575 0 3-1.22 4.05-2.747.075 1.374.525 2.747 2.25 2.747 1.2=
+75 0 2.55-.687 4.05-2.823.075 1.373.6 2.9 2.25 2.9 1.575 0 3-1.145 4.275-2.=
+9.15 1.755 1.05 2.823 2.4 2.823 1.35 0 2.55-.916 2.475-1.908-.075-.84-.675-=
+.458-1.125-.534zM66.6 3.205c.825 0-1.5 6.182-5.7 9.616 1.8-4.503 4.725-9.61=
+6 5.7-9.616zm-39.15 7.098c1.425 0 .6 4.12-3.3 4.12h-.075c.9-2.136 2.4-4.12 =
+3.375-4.12zm13.05 8.929c-2.175 0 1.5-8.471 3.6-8.471.825 0 1.05.534 1.2.992=
+-1.725 4.044-3.075 7.479-4.8 7.479z'/%3E %3C/g%3E %3C/svg%3E") 21px 21px / =
+auto 18px no-repeat; }
+
+#rmnGenieWrappingDiv header { min-height: 55px; display: flex; align-items:=
+ center; justify-content: center; border-bottom: 1px solid rgb(231, 231, 23=
+1); }
+
+#rmnGenieWrappingDiv .button-primary, #rmnGenieWrappingDiv .rmnGenie-button=
+, #rmnGenieWrappingDiv a, #rmnGenieWrappingDiv .button-text, #rmnGenieWrapp=
+ingDiv .button-code, #rmnGenieWrappingDiv .rmnGenie-codeButton { border: 0p=
+x; cursor: pointer; font-size: 14px; font-weight: bold; letter-spacing: 0.3=
+px; margin: 10px 0px; z-index: 0; }
+
+#rmnGenieWrappingDiv .button-primary:last-child, #rmnGenieWrappingDiv .rmnG=
+enie-button:last-child, #rmnGenieWrappingDiv a:last-child, #rmnGenieWrappin=
+gDiv .button-text:last-child, #rmnGenieWrappingDiv .button-code:last-child,=
+ #rmnGenieWrappingDiv .rmnGenie-codeButton:last-child { margin-bottom: 0px;=
+ }
+
+#rmnGenieWrappingDiv .button-primary, #rmnGenieWrappingDiv .rmnGenie-button=
+ { color: white; margin-left: -12px; outline: 0px; padding: 20px 24px; posi=
+tion: relative; width: 230px; }
+
+#rmnGenieWrappingDiv .button-primary::before, #rmnGenieWrappingDiv .rmnGeni=
+e-button::before { content: ""; border-radius: 999px; background-color: rgb=
+(222, 31, 114); position: absolute; top: 0px; bottom: 0px; left: 0px; right=
+: 0px; transition: transform 200ms ease 0s, background-color 300ms ease 0s,=
+ box-shadow 200ms ease 0s; z-index: -1; }
+
+#rmnGenieWrappingDiv .button-primary:focus::before, #rmnGenieWrappingDiv .b=
+utton-primary:hover::before, #rmnGenieWrappingDiv .rmnGenie-button:focus::b=
+efore, #rmnGenieWrappingDiv .rmnGenie-button:hover::before { box-shadow: rg=
+b(222, 31, 114) 0px 22px 28px -22px; transform: scale(1.02); }
+
+#rmnGenieWrappingDiv .button-primary:active::before, #rmnGenieWrappingDiv .=
+rmnGenie-button:active::before { box-shadow: transparent 0px 0px 0px 0px; b=
+ackground-color: rgb(184, 29, 91); transform: scale(0.98); }
+
+#rmnGenieWrappingDiv .button-primary[disabled]::before, #rmnGenieWrappingDi=
+v .rmnGenie-button[disabled]::before { background-color: rgb(89, 89, 89); t=
+ransition: none 0s ease 0s; transform: none; }
+
+#rmnGenieWrappingDiv .justify-center .button-primary { margin-left: 0px; }
+
+#rmnGenieWrappingDiv .button-secondary { outline: lime solid 4px; }
+
+#rmnGenieWrappingDiv a, #rmnGenieWrappingDiv .button-text, #rmnGenieWrappin=
+gDiv .button-code, #rmnGenieWrappingDiv .rmnGenie-codeButton { color: rgb(2=
+22, 31, 114); padding: 0px; transition: color 200ms ease 0s; }
+
+#rmnGenieWrappingDiv a:hover, #rmnGenieWrappingDiv .button-text:hover, #rmn=
+GenieWrappingDiv .button-code:hover, #rmnGenieWrappingDiv .rmnGenie-codeBut=
+ton:hover { color: rgb(184, 29, 91); }
+
+#rmnGenieWrappingDiv a:focus, #rmnGenieWrappingDiv a:active, #rmnGenieWrapp=
+ingDiv .button-text:focus, #rmnGenieWrappingDiv .button-code:focus, #rmnGen=
+ieWrappingDiv .rmnGenie-codeButton:focus, #rmnGenieWrappingDiv .button-text=
+:active, #rmnGenieWrappingDiv .button-code:active, #rmnGenieWrappingDiv .rm=
+nGenie-codeButton:active { outline: rgb(184, 29, 91); }
+
+#rmnGenieWrappingDiv a[disabled], #rmnGenieWrappingDiv .button-text[disable=
+d], #rmnGenieWrappingDiv .button-code[disabled], #rmnGenieWrappingDiv .rmnG=
+enie-codeButton[disabled] { color: rgb(89, 89, 89); }
+
+#rmnGenieWrappingDiv .bbb-container-dark a, #rmnGenieWrappingDiv .bbb-conta=
+iner-dark .button-text, #rmnGenieWrappingDiv .bbb-container-dark .button-co=
+de, #rmnGenieWrappingDiv .bbb-container-dark .rmnGenie-codeButton { color: =
+rgb(255, 175, 36); }
+
+#rmnGenieWrappingDiv .bbb-container-dark a:hover, #rmnGenieWrappingDiv .bbb=
+-container-dark .button-text:hover, #rmnGenieWrappingDiv .bbb-container-dar=
+k .button-code:hover, #rmnGenieWrappingDiv .bbb-container-dark .rmnGenie-co=
+deButton:hover { color: rgb(214, 141, 30); }
+
+#rmnGenieWrappingDiv .bbb-container-dark a:focus, #rmnGenieWrappingDiv .bbb=
+-container-dark a:active, #rmnGenieWrappingDiv .bbb-container-dark .button-=
+text:focus, #rmnGenieWrappingDiv .bbb-container-dark .button-code:focus, #r=
+mnGenieWrappingDiv .bbb-container-dark .rmnGenie-codeButton:focus, #rmnGeni=
+eWrappingDiv .bbb-container-dark .button-text:active, #rmnGenieWrappingDiv =
+.bbb-container-dark .button-code:active, #rmnGenieWrappingDiv .bbb-containe=
+r-dark .rmnGenie-codeButton:active { outline: rgb(214, 141, 30); }
+
+#rmnGenieWrappingDiv .bbb-container-dark a[disabled], #rmnGenieWrappingDiv =
+.bbb-container-dark .button-text[disabled], #rmnGenieWrappingDiv .bbb-conta=
+iner-dark .button-code[disabled], #rmnGenieWrappingDiv .bbb-container-dark =
+.rmnGenie-codeButton[disabled] { color: rgb(89, 89, 89); }
+
+#rmnGenieWrappingDiv .button-code, #rmnGenieWrappingDiv .rmnGenie-codeButto=
+n { font-size: 20px; margin-top: 1em; padding-bottom: 1em; max-width: 135px=
+; min-width: 100px; text-align: right; text-overflow: ellipsis; overflow: h=
+idden; white-space: nowrap; position: relative; }
+
+#rmnGenieWrappingDiv .button-code::after, #rmnGenieWrappingDiv .rmnGenie-co=
+deButton::after { color: rgb(222, 31, 114); content: "Copy Code"; font-size=
+: 12px; font-weight: 600; position: absolute; bottom: 0px; right: 0px; widt=
+h: 100px; }
+
+#rmnGenieWrappingDiv .copied .button-code::after { color: rgb(76, 24, 243);=
+ content: "\2713 =A0Code Copied"; right: 0px; }
+
+@media print {
+  #rmnGenieWrappingDiv { display: none !important; }
+}
+------MultipartBoundary--RgQya6FCPeDPts3fBrIClAi1RrFjw1ISoZ772Sddp6----
+Content-Type: text/html
+Content-ID: <frame-140CF0984FB23D4F33C23FF04F9F3D88@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://lambda.uta.edu/cse6331/contents.html
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dwindows-1252">
+   <title>CSE6331</title>
+</head>
+<body bgcolor=3D"#ffffff" text=3D"#000000" marginwidth=3D"15" marginheight=
+=3D"16">
+<center>
+<h3>CSE6331</h3>
+</center>
+<p>
+</p><p align=3D"left" style=3D"margin-left: 10"><b><a href=3D"https://lambd=
+a.uta.edu/cse6331/main.shtml" target=3D"Main">Main</a></b></p>
+<p align=3D"left" style=3D"margin-left: 10"><b><a href=3D"https://lambda.ut=
+a.edu/cse6331/outline.shtml" target=3D"Main">Outline</a></b></p>
+<p align=3D"left" style=3D"margin-left: 10"><b><a href=3D"https://lambda.ut=
+a.edu/cse6331/syllabus.html" target=3D"Main">Syllabus</a></b></p>
+<p align=3D"left" style=3D"margin-left: 10"><b><a href=3D"https://lambda.ut=
+a.edu/cse6331/comet.html" target=3D"Main">SDSC Comet</a></b></p>
+<p align=3D"left" style=3D"margin-left: 10"><b><a href=3D"https://lambda.ut=
+a.edu/cse6331/project1.html" target=3D"Main">Project 1</a></b></p>
+<p align=3D"left" style=3D"margin-left: 10"><b><a href=3D"https://lambda.ut=
+a.edu/cse6331/project2.html" target=3D"Main">Project 2</a></b></p>
+<p align=3D"left" style=3D"margin-left: 10"><b><a href=3D"https://lambda.ut=
+a.edu/cse6331/project3.html" target=3D"Main">Project 3</a></b></p>
+<p align=3D"left" style=3D"margin-left: 10"><b><a href=3D"https://lambda.ut=
+a.edu/cgi-bin/php/status.php?class=3Dcse6331" target=3D"Main">login/status<=
+/a></b></p>
+
+
+</body></html>
+------MultipartBoundary--RgQya6FCPeDPts3fBrIClAi1RrFjw1ISoZ772Sddp6----
+Content-Type: text/html
+Content-ID: <frame-AD61AB3C416B1E141141B80FF177DCD2@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://lambda.uta.edu/cse6331/project3.html
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8">
+
+<title>CSE6331 Programming Assignment 3</title>
+</head><body bgcolor=3D"#ffffff" text=3D"#000000">
+<center>
+<h1>Programming Assignment 3<br>
+Graph Processing using Map-Reduce</h1>
+Due on Tuesday March 5 before midnight
+</center>
+<p>
+</p><hr>
+<p>
+</p><h2>Description</h2>
+<p>
+</p><p>
+The purpose of this project is to develop a graph analysis program using Ma=
+p-Reduce.
+</p><p>
+This project must be done individually. No copying is permitted.=20
+<b>Note: We will use a system for detecting software plagiarism, called
+<a href=3D"http://theory.stanford.edu/~aiken/moss/" target=3D"_top">Moss</a=
+>,
+which is an automatic system for determining
+the similarity of programs.</b>  That is, your program will be
+compared with the programs of the other students in class as well as
+with the programs submitted in previous years. This program will find
+similarities even if you rename variables, move code, change code
+structure, etc.
+</p>
+<p>
+Note that, if you use a Search Engine to find similar programs on the
+web, we will find these programs too. So don't do it because you will
+get caught and you will get an F in the course (this is
+cheating). Don't look for code to use for your project on the web or
+from other students (current or past). Just do your project alone using the=
+ help
+given in this project description and from your instructor and GTA
+only.
+</p><p>
+</p><h2>Platform</h2>
+<p>
+As in other projects, you will develop your program on <a href=3D"https://l=
+ambda.uta.edu/cse6331/comet.html">SDSC Comet</a>.
+Optionally, you may use IntelliJ IDEA or Eclipse to help you develop your p=
+rogram,
+but you should test your programs on Comet before you submit them.
+</p>
+<h2>Setting up your Project</h2>
+<p>
+Login into Comet and download and untar project3:
+</p><pre>wget http://lambda.uta.edu/cse6331/project3.tgz
+tar xfz project3.tgz
+chmod -R g-wrx,o-wrx project3
+</pre>
+<p></p>
+<h2>Project Description</h2>
+<p>
+An undirected graph is represented in the input text file using one line
+per graph vertex. For example, the line
+</p><pre>1,2,3,4,5,6,7
+</pre>
+represents the vertex with ID 1, which is connected to the vertices with ID=
+s 2, 3, 4, 5, 6, and 7.
+For example, the following graph:
+<br><img src=3D"https://lambda.uta.edu/cse6331/p2.png"><br>
+is represented in the input file as follows:
+<pre>3,2,1
+2,4,3
+1,3,4,6
+5,6
+6,5,7,1
+0,8,9
+4,2,1
+8,0
+9,0
+7,6
+</pre>
+Your task is to write a Map-Reduce program that finds the connected compone=
+nts of any undirected graph
+and prints the size of these connected components. A connected component of=
+ a graph
+is a subgraph of the graph in which there is a path from any two vertices i=
+n the subgraph.
+For the above graph, there are two connected components: one 0,8,9 and anot=
+her 1,2,3,4,5,6,7.
+Your program should print the sizes of these connected components: 3 and 7.
+<p>
+The following pseudo-code finds the connected components. It assigns a uniq=
+ue group number
+to each vertex (we are using the vertex ID as the group number), and for ea=
+ch graph edge between Vi and Vj,
+it changes the group number of these vertices to the minimum group number o=
+f Vi and Vj.
+That way, vertices connected together will eventually get the same minimum =
+group number,
+which is the minimum vertex ID among all vertices in the connected componen=
+t.=20
+First you need a class to represent a vertex:
+</p><pre>class Vertex extends Writable {
+  short tag;                 // 0 for a graph vertex, 1 for a group number
+  long group;                // the group where this vertex belongs to
+  long VID;                  // the vertex ID
+  long[] adjacent;           // the vertex neighbors
+  ...
+}
+</pre>
+Vertex must have two constructors: Vertex(tag,group,VID,adjacent) and Verte=
+x(tag,group).
+<p>
+First Map-Reduce job:
+</p><pre>map ( key, line ) =3D
+  parse the line to get the vertex VID and the adjacent vector
+  emit( VID, new Vertex(0,VID,VID,adjacent) )
+</pre>
+Second Map-Reduce job:
+<pre>map ( key, vertex ) =3D
+  emit( vertex.VID, vertex )   // pass the graph topology
+  for n in vertex.adjacent:
+     emit( n, new Vertex(1,vertex.group) )  // send the group # to the adja=
+cent vertices
+
+reduce ( vid, values ) =3D
+  m =3D Long.MAX_VALUE;
+  for v in values:
+     if v.tag =3D=3D 0
+        then adj =3D v.adjacent.clone()     // found the vertex with vid
+     m =3D min(m,v.group)
+  emit( m, new Vertex(0,m,vid,adj) )      // new group #
+</pre>
+Final Map-Reduce job:
+<pre>map ( group, value ) =3D
+   emit(group,1)
+
+reduce ( group, values ) =3D
+   m =3D 0
+   for v in values
+       m =3D m+v
+   emit(group,m)
+</pre>
+The second map-reduce job must be repeated multiple times. For your project=
+, repeat it 5 times.
+You can repeat a job, by using the ToolRunner tool and by using a for-loop =
+to repeat the job.
+The args vector in your main program has the path names: args[0] is the inp=
+ut graph,
+args[1] is the intermediate directory, and args[2] is the output. The first=
+ Map-Reduce job
+writes on the directory <tt>args[1]+"/f0"</tt>. The second Map-Reduce job r=
+eads
+from the directory <tt>args[1]+"/f"+i</tt> and writes in the directory <tt>=
+args[1]+"/f"+(i+1)</tt>,
+where <tt>i</tt> is the for-loop index you use to repeat the second Map-Red=
+uce job.
+The final Map-Reduce job reads from <tt>args[1]+"/f5"</tt> and writes on <t=
+t>args[2]</tt>.
+Note that, as in the Project1 and Project2, the intermediate results betwee=
+n Map-Reduce jobs must
+be stored using SequenceFileOutputFormat.
+<p>
+An empty <tt>project3/src/main/java/Graph.java</tt> is provided,
+as well as scripts to build and run this code on Comet.
+<b>You should modify Graph.java only</b>.
+There is one small graph in <tt>small-graph.txt</tt> for testing in standal=
+one mode.
+It is the graph shown in the figure above.
+Then, there is a moderate-sized graph <tt>large-graph.txt</tt>
+for testing in distributed mode.
+The solution for the large graph is given at <tt>solution-large.txt</tt>.
+</p><p>
+You can compile Graph.java using:
+</p><pre>run graph.build
+</pre>
+and you can run it in standalone mode over the small graph using:
+<pre>sbatch graph.local.run
+</pre>
+You should modify and run your programs in standalone mode until you get th=
+e
+correct result. After you make sure that your program
+runs correctly in standalone mode, you run it in distributed mode using:
+<pre>sbatch graph.distr.run
+</pre>
+This will work on the moderate-sized graph and will write the result in the=
+ directory output-distr.
+Note that running in distributed mode will use up at least 10 of your SUs.
+So do this once or twice only, after you make sure that your program works =
+correctly in standalone mode.
+<p>
+</p><h2>What to Submit</h2>
+<p>
+You need to submit the following files only:
+</p><pre>project3/src/main/java/Graph.java
+project3/graph.local.out
+project3/graph.distr.out
+project3/output-distr/part-r-00000
+</pre>
+<p>
+</p><form enctype=3D"multipart/form-data" action=3D"https://lambda.uta.edu/=
+cgi-bin/php/handin.php" method=3D"post">
+  <fieldset>
+    <legend>Submit Programming Assignment #3:</legend>
+   =20
+   =20
+   =20
+    <label>Select a file: <input name=3D"userfile" type=3D"file"></label><b=
+r>
+    <input value=3D"Send File" type=3D"submit">
+  </fieldset>
+</form>
+<p>
+</p><address>Last modified: 26/02/2019 by <a href=3D"http://lambda.uta.edu/=
+">Leonidas Fegaras</a></address>
+
+</body></html>
+------MultipartBoundary--RgQya6FCPeDPts3fBrIClAi1RrFjw1ISoZ772Sddp6----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://lambda.uta.edu/cse6331/p2.png
+
+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
+
+------MultipartBoundary--RgQya6FCPeDPts3fBrIClAi1RrFjw1ISoZ772Sddp6------
