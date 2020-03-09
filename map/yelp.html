@@ -1,0 +1,32 @@
+<!-- Student Name: Sandeep Satone  -->
+<!-- UTA ID: 1001556868  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Web Mashup: Display Best Restaurants on a Map</title>
+	<meta charset="utf-8" />
+</head>
+<link rel="stylesheet" href="css/yelp.css">
+<!--<body onload="initialize();">-->
+
+<body>
+	<form onsubmit="return false">
+		<label style="font-size: x-large;">Search Terms: <input type="text" id="search" style="width: 1100px;font-size: x-large;" value="Indian buffet"/></label>
+		<input type="button" onclick="sendRequest();" value="Find" style="font-size: x-large;" />
+	</form>
+	<div id="code">
+
+		<div id="map"></div>
+		<div><img id="loadingImage" src="images/loader/ajax-loader.gif" alt=""></div>
+		<div id="restaurentTitles">
+			<ol id="orderedList">
+			</ol>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="js/yelp.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWeNhaEIkrDYTTfTGeKczL3cpVBjPit3s&callback=initialize&libraries=geometry" async defer></script>
+
+</html>
