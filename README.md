@@ -6,25 +6,28 @@ All Project Collection ( See DEMO on below links)
 
 
 # Project 1
+#1. Ping-Pong - CSE 5335 Web Data Management 
 
 ![image](https://user-images.githubusercontent.com/22931190/47601398-92243100-d995-11e8-97ec-9cde9d9d93db.png)
 
 # Project 2
-
+#2. A Movie Web Application - CSE 5335 Web Data Management 
 ![image](https://user-images.githubusercontent.com/22931190/47601410-bb44c180-d995-11e8-8959-9f750dd5a3b8.png)
 
 # Project 3
+#3. Web Mashup: Display Best Restaurants on a Map
 
 ![image](https://user-images.githubusercontent.com/22931190/47601625-1cba5f80-d999-11e8-9db7-722a22259b08.png)
 ![image](https://user-images.githubusercontent.com/22931190/47601631-378cd400-d999-11e8-8f94-13f1712c7fbf.png)
 
 
 # Project 4
-
+#4.PHP Scripting : Using  eBay Commerce Network API ("ECN API") to buy online products from Ebay
 ![image](https://user-images.githubusercontent.com/22931190/47948392-72918900-defe-11e8-9d8a-f7b4ae4e435a.png)
 
 
 # Project 5 
+#5.A Message Board using PHP and MySQL
 Username:S 
 Password:S 
 you can use register button to create new user and use it. 
@@ -32,6 +35,7 @@ you can use register button to create new user and use it.
 ![image](https://user-images.githubusercontent.com/22931190/48298275-5b174a80-e480-11e8-8696-8284b5c268d1.png)
 
 # Project 6
+# 6. Photo album Using Dropbox Cloud Storage
 ![image](https://user-images.githubusercontent.com/22931190/48600697-9c9d6f00-e932-11e8-84fd-bd94139433ea.png)
 
 # Project 7
