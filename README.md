@@ -57,3 +57,7 @@ you can use register button to create new user and use it.
 ![Teacup_results_03b](https://user-images.githubusercontent.com/22931190/76205069-866e8e80-61c7-11ea-8d86-4db052dc2a31.png)
 ![Traveller_results_01a](https://user-images.githubusercontent.com/22931190/76205070-866e8e80-61c7-11ea-86cc-80e6d25c0933.png)
 ![Traveller_results_01b](https://user-images.githubusercontent.com/22931190/76205073-866e8e80-61c7-11ea-8c3f-04f49c1589b7.png)
+
+# Project 8
+#  8. Object or Feature detection with motion tracking using digital camera
+![image](https://user-images.githubusercontent.com/22931190/76206166-866f8e00-61c9-11ea-8953-e91c91f51848.png)
