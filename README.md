@@ -33,3 +33,23 @@ you can use register button to create new user and use it.
 
 # Project 6
 ![image](https://user-images.githubusercontent.com/22931190/48600697-9c9d6f00-e932-11e8-84fd-bd94139433ea.png)
+
+# Project 7
+# Computer Vision Bezier transformation parallel projection and clipping. 
+
+![Monkey_results_01a](https://user-images.githubusercontent.com/22931190/76205051-840c3480-61c7-11ea-9a15-c54e819a23c5.png)
+![Monkey_results_01b](https://user-images.githubusercontent.com/22931190/76205053-840c3480-61c7-11ea-8071-9bb288d70c58.png)
+![Monkey_results_02a](https://user-images.githubusercontent.com/22931190/76205055-84a4cb00-61c7-11ea-95a6-6ef83fe539f6.png)
+![Monkey_results_02b](https://user-images.githubusercontent.com/22931190/76205056-84a4cb00-61c7-11ea-943d-520cac0410d8.png)
+![Monkey_results_03a](https://user-images.githubusercontent.com/22931190/76205057-84a4cb00-61c7-11ea-83bf-03ca7eb23cd1.png)
+![Monkey_results_03b](https://user-images.githubusercontent.com/22931190/76205058-853d6180-61c7-11ea-9650-e90b975d988b.png)
+![RiderInBlack_results_01a](https://user-images.githubusercontent.com/22931190/76205059-853d6180-61c7-11ea-9414-f9414ef9feb6.png)
+![RiderInBlack_results_01b](https://user-images.githubusercontent.com/22931190/76205060-853d6180-61c7-11ea-8539-6d2e686907d6.png)
+![Teacup_results_01a](https://user-images.githubusercontent.com/22931190/76205062-853d6180-61c7-11ea-9073-99e50d369d19.png)
+![Teacup_results_01b](https://user-images.githubusercontent.com/22931190/76205064-85d5f800-61c7-11ea-8f29-9f7ae009e3d5.png)
+![Teacup_results_02a](https://user-images.githubusercontent.com/22931190/76205066-85d5f800-61c7-11ea-9235-47f257eea7ea.png)
+![Teacup_results_02b](https://user-images.githubusercontent.com/22931190/76205067-85d5f800-61c7-11ea-9e8f-45d65074e225.png)
+![Teacup_results_03a](https://user-images.githubusercontent.com/22931190/76205068-85d5f800-61c7-11ea-9c26-f34a8a216e45.png)
+![Teacup_results_03b](https://user-images.githubusercontent.com/22931190/76205069-866e8e80-61c7-11ea-8d86-4db052dc2a31.png)
+![Traveller_results_01a](https://user-images.githubusercontent.com/22931190/76205070-866e8e80-61c7-11ea-86cc-80e6d25c0933.png)
+![Traveller_results_01b](https://user-images.githubusercontent.com/22931190/76205073-866e8e80-61c7-11ea-8c3f-04f49c1589b7.png)
