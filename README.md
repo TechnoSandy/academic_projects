@@ -61,3 +61,8 @@ you can use register button to create new user and use it.
 # Project 8
 #  8. Object or Feature detection with motion tracking using digital camera
 ![image](https://user-images.githubusercontent.com/22931190/76206166-866f8e00-61c9-11ea-8953-e91c91f51848.png)
+
+# Project 9
+#  9. Experiment with Linear and Logistic Regression to train Models -  Neural Networks
+![image](https://user-images.githubusercontent.com/22931190/76208070-fb909280-61cc-11ea-870c-2299c899d3a1.png)
+![image](https://user-images.githubusercontent.com/22931190/76208118-0c410880-61cd-11ea-9a2b-9372c05769a1.png)
